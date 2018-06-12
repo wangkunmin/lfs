@@ -1,0 +1,115 @@
+.company-info-body > .body-div-title>div{
+  padding-left: 20px;
+}
+.company-info-heard{
+  line-height: 70px;
+  font-size: 24px;
+  border-right: 0;
+  margin-top: 20px;
+}
+.company-info-div{
+  border-left: 0;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.company-info-body{
+  height: 280px;
+  overflow: auto;
+}
+.company-info-body div{
+  line-height: 32px;
+  height: 32px;
+}
+.company-info-body div p{
+ margin-bottom: 0;
+}
+.company-info-body .body-div-p>div>div{
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.body-div-p{
+  background-color: #ffffff;
+}
+.company-info-body > .body-div-title>div:nth-of-type(odd) {
+  background-color: #fff;
+}
+.company-info-body > .body-div-title>div:nth-of-type(even) {
+  background-color: #F6F7F9;
+}
+
+
+.company-info-body .b-border div{
+  /*border-bottom: 1px solid #cfd8dc;*/
+}
+
+.company-info-body .b-border>.b-border_bottomN{
+  border-bottom: 0;
+}
+.see-company-title{
+  line-height: 38px;
+  min-height: 40px;
+  border: 1px solid #cfd8dc;
+  border-top: 0;
+  margin: -5px -2px 0 0;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.controller-table{
+  font-size: 12px;
+}
+.controller-table table>thead>tr>th{
+  background-color: #e1f0fb;
+}
+.one-table-header{
+  height: 280px;
+  overflow-y:auto;
+}
+
+.h-info {
+  height: 280px;
+}
+
+.h-chart {
+  height: 278px;
+}
+.chart-title {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(255, 187, 0, 0.7);
+}
+
+
+.company-info-tab .col-lg-12 {
+  background-color: #ffffff;
+  padding-top: 10px;
+}
+
+.company-info-tab ul,.company-info-tab li{
+  list-style: none;
+}
+.company-info-tab {
+}
+
+.company-info-tab li{
+  padding: 10px 20px;
+  display: inline;
+  margin-right: -1px;
+  border-left: 0;
+  font-size: 14px;
+  color: #657899;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.company-info-tab ul>.active {
+  cursor: default;
+  font-size: 14px;
+  color: #3F51B5;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+

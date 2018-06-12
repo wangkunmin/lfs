@@ -1,0 +1,64 @@
+<form class="f-sign_in" (ngSubmit)="login(userInfo)" #loginForm="ngForm" >
+  <div class="form-group from-group-input ">
+    <label for="name">用户名</label>
+    <input type="text" class="form-control" id="name"
+           [(ngModel)]="userInfo.accountName" name="name"
+           placeholder="请输入登录账号">
+    <!--<input type="text" style="display: none"
+           name="name"
+    >-->
+    <hr>
+  </div>
+  <div class="form-group  from-paw " *ngIf="showPaw">
+    <label for="password1">密码</label>
+    <div class="img-eye-div" >
+      <div class="img-eye-click " (click)="showPaw = (!showPaw)"></div>
+      <iframe class="img-eye-file" src="assets/images/svg/eye/fa-eye.svg" ></iframe>
+    </div>
+    <input type="password" name="password" hidden/>
+    <input type="text" class="form-control" id="password1"
+           [(ngModel)]="userInfo.password" name="password"
+           autocomplete="off"
+           readonly
+           onfocus="this.removeAttribute('readonly')"
+           placeholder="请输入登录密码">
+    <!--<input type="password" style="display: none"
+            name="password"
+           >-->
+    <hr>
+  </div>
+
+  <div class="form-group  from-paw " *ngIf="!showPaw">
+    <label for="password2">密码</label>
+    <div class="img-eye-div" >
+      <div class="img-eye-click " (click)="showPaw = (!showPaw)"></div>
+      <iframe class="img-eye-file" src="assets/images/svg/eye/not-eye.svg" ></iframe>
+    </div>
+    <input type="password" name="password" hidden/>
+    <input type="password" class="form-control" id="password2"
+           [(ngModel)]="userInfo.password" name="password"
+           autocomplete="new-password0"
+           placeholder="请输入登录密码">
+    <hr>
+  </div>
+
+  <div class="form-group" >
+    <div class=" login-error-message" *ngIf="(message+'') != 'null'">
+      <span>{{message}}</span>
+    </div>
+  </div>
+  <div class="form-group login-save-del-paw" >
+    <div class="float-left">
+      <input type="checkbox" class="check-box checkbox-inline" (click)="save()" [checked]="savePassword"> 记住密码
+    </div>
+    <!--<div class="float-right">
+      忘记密码
+    </div>-->
+  </div>
+  <div class="form-group" >
+    <button type="submit" class="btn">登录</button>
+  </div>
+
+
+</form>
+

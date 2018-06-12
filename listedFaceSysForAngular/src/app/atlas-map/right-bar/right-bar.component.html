@@ -1,0 +1,64 @@
+<div class="right-bars absolute">
+  <!--<div class="chart-theme" *ngIf="riskSelF">
+    <div>
+      <img src="../../../assets/images/svg/chart_colorful.svg" [ngClass]="rightBarCtrl.isColorful ? 'disabled' : ''"
+           (click)="rightBarCtrl.switchToColorfulStyle();">
+    </div>
+    <div>
+      <img src="../../../assets/images/svg/chart_grey.svg" [ngClass]="!rightBarCtrl.isColorful ? 'disabled' : ''"
+           (click)="rightBarCtrl.switchToGreyStyle();">
+    </div>
+  </div>-->
+  <ng-container *ngIf="riskSelF">
+    <div (click)="riskSel()" style="margin-bottom: 5px;"><button class="chart-riskback-btn">返回</button></div>
+  </ng-container>
+  <div class="chart-operations">
+    <div>
+      <img class="cursor-pointer" src="../../../assets/images/chartPng.png" (click)="rightBarCtrl.save()" alt="保存" />
+    </div>
+    <div>
+      <img class="cursor-pointer" src="../../../assets/images/chartPrint.png" (click)="rightBarCtrl.print()" alt="打印" />
+    </div>
+    <div>
+      <img class="cursor-pointer" src="../../../assets/images/chartZoomIn.png" (click)="rightBarCtrl.zoomIn()" alt="放大" />
+    </div>
+    <div>
+      <img class="cursor-pointer" src="../../../assets/images/chartZoomOut.png" (click)="rightBarCtrl.zoomOut()" alt="缩小" />
+    </div>
+    <div>
+      <img class="cursor-pointer" src="../../../assets/images/reset.png" (click)="rightBarCtrl.zoomReset()" alt="重置" />
+    </div>
+  </div>
+  <div class="chart-biaozhu" *ngIf="riskSelF">
+    <div>
+      <span>企业</span>
+      <span style="background-color: #9EBCF8;">&nbsp;</span>
+    </div>
+    <div>
+      <span>自然人</span>
+      <span style="background-color: #97CD82;">&nbsp;</span>
+    </div>
+    <div>
+      <span>产品</span>
+      <span style="background-color: #FE8572;">&nbsp;</span>
+    </div>
+  </div>
+  <div class="chart-biaozhu">
+    <div>
+      <span>发债</span>
+      <span><img src="../../../assets/images/svg/chartCtype1.svg" alt="发债"></span>
+    </div>
+    <div>
+      <span>上市</span>
+      <span><img src="../../../assets/images/svg/chartCtype2.svg" alt="上市"></span>
+    </div>
+    <div>
+      <span>新三板</span>
+      <span><img src="../../../assets/images/svg/chartCtype3.svg" alt="新三板"></span>
+    </div>
+    <div>
+      <span>私募</span>
+      <span><img src="../../../assets/images/svg/chartCtype4.svg" alt="新三板"></span>
+    </div>
+  </div>
+</div>

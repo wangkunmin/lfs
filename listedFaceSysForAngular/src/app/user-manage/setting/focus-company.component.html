@@ -1,0 +1,46 @@
+<div class="col-lg-12 user-focus padding-left-right_0">
+  <!--<div class="col-lg-12 line-height30 padding-10 user-focus-search">
+    <div class="col-lg-9">
+      <button class="user-focus-button font-back-7ABF6D" (click)="addCompany(addFollowCompanyTemplate)">添加企业</button>
+    </div>
+    <div class="col-lg-3">
+      <input class="form-control" type="text" placeholder="搜索"
+             [(ngModel)]="searchCompany"
+             (keyup)="searchSrc($event,searchCompany)">
+    </div>
+  </div>
+  <div class="col-lg-12 user-focus-header align-center">
+    <div class="col-lg-12 line-height30">
+      <div class="col-lg-2" (click)="delFocusCompany(focusCompanyList)">删除</div>
+      <div class="col-lg-6">公司名称</div>
+      <div class="col-lg-4">关注时间</div>
+    </div>
+  </div>-->
+  <div class="col-lg-12 user-focus-body align-center padding-left-right_0">
+    <div class="col-lg-12 line-height50 sz-news" *ngFor="let company of focusCompanyList">
+<!--      <div class="col-lg-2 "><input type="checkbox" class="" value="{{company.checkValue}}" (change)="changeCheck($event,company)"></div>-->
+      <div class="col-lg-4 text-left color-16325C">{{company.companySnm}}[{{company.securityCode }}]</div>
+      <div class="col-lg-6 text-left color-54698D">{{company.companyNm}}</div>
+      <div class="col-lg-2 sz-warning width12 line-height24 mgn-top_5">
+          <app-follow [follow]="company" [nonFleshbtn] = "true" (followType)="clickFollow()"></app-follow>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 user-focus-foot mgn-bottom_70">
+    <div class="col-lg-12" >
+      <div class="m-pagination text-right">
+        <pagination [boundaryLinks]="true"
+                    [maxSize]="7"
+                    [rotate]="false"
+                    [totalItems]="totalItems"
+                    [itemsPerPage]="pageSize"
+                    [(ngModel)]="currentPage"
+                    (pageChanged)="getAccount($event)"
+                    previousText="&lsaquo;"
+                    nextText="&rsaquo;"
+                    firstText="&laquo;" lastText="&raquo;">
+        </pagination>
+      </div>
+    </div>
+  </div>
+</div>

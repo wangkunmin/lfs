@@ -1,0 +1,38 @@
+<ng-container *ngIf="newsTrack">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="row mgn-row overflow-h">
+        <div *ngFor="let new of newsTrack" class="col-lg-12 padding-left-right_0 track-padding sz-news " (click)="newsDetail(new)">
+          <div class="col-lg-5 mgn-bottom_5 padding-right_0 fontW-700 color-16325C u-leaveOut all-dis-set"
+               data-toggle="tooltip"
+               data-trigger="hover"
+               data-placement="top"
+               title="{{ new.title }}">
+            <div class="u-leaveOut">
+              {{ new.title }}
+            </div>
+          </div>
+          <div class="col-lg-12 padding-left-right_0 all-dis-set">
+            <div class="col-lg-5">{{ new.postDt | lfsDatePipe: "yyyy-MM-dd HH:mm" }}</div>
+            <div class="col-lg-5 padding-right_0">
+              <span class="float-left color-3F51B5">相关公司：</span>
+              <span class="float-left color-546 u-leaveOut text-decoration"
+                    data-toggle="tooltip"
+                    data-trigger="hover"
+                    data-placement="top"
+                    (click)="openCompanyDetail(new,$event)"
+                    title="{{ new.companyNm }}">
+            {{ new.companyNm }}[{{new.securityCd}}]
+          </span>
+            </div>
+            <div class="col-lg-2 align-right color-546 u-leaveOut"
+                 data-toggle="tooltip"
+                 data-trigger="hover"
+                 data-placement="top"
+                 title="{{ new.newsSource }}">来源：{{ new.newsSource }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

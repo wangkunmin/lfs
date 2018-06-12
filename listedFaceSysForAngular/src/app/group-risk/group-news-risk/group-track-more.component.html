@@ -1,0 +1,18 @@
+<div class="container mgn-top_15">
+  <app-group-news-item [newsTrack]="newsTrack"></app-group-news-item>
+
+  <div class="m-pagination text-right">
+    <pagination [boundaryLinks]="true"
+                [maxSize]="7"
+                [rotate]="false"
+                [totalItems]="totalItems"
+                [itemsPerPage]="itemsPerPage"
+                [(ngModel)]="currentPage"
+                (pageChanged)="getNewsTrack($event)"
+                previousText="&lsaquo;"
+                nextText="&rsaquo;"
+                firstText="&laquo;" lastText="&raquo;">
+    </pagination>
+  </div>
+</div>
+

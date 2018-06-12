@@ -1,0 +1,77 @@
+<div class="row mgn-top_15">
+  <div class="col-lg-12 mgn-top-10">
+    <div class="col-lg-offset-1 col-lg-4 tab-input-span">
+      <div class="" (click)="clickTab(1)" [ngClass]="{'active':(activeClassType==1)}">图谱</div>
+      <div class=""  (click)="clickTab(2)" [ngClass]="{'active':(activeClassType==2)}">关系</div>
+    </div>
+    <div class="col-lg-7">
+      <!--<div class="align-right title-p" >
+        <p *ngIf="activeClassType==1" class="text-right ">键入空格键开始查询 点击查询关联图谱</p>
+        <p *ngIf="activeClassType==2" class="text-right ">键入空格键开始查询 点击查询关系详情</p>
+      </div>-->
+    </div>
+    <div class=" col-lg-offset-1 col-lg-11" id="earchInput">
+      <input *ngIf="activeClassType==1" class="group form-control" placeholder="请输入您要查询的公司名称或代码"
+             [(ngModel)]="inputData"
+              (click)="clickFun(inputData,activeClassType)"
+              (keyup)="keyUpFun($event,inputData)"
+              maxlength="100"
+      >
+      <div class="u-select-input-company" *ngIf="activeClassType==2">
+        <div>
+          <div class="u-select-input-company-div u-leaveOut u-select-company " *ngFor="let selectCompany of relationCompanyList">
+            <div class="row mgn-row" title="{{selectCompany.companyNm}}">
+              <div class="col-lg-10 u-leaveOut">{{selectCompany.companyNm}}</div>
+              <div class="col-lg-2 del-span" (click)="delCompany(selectCompany)">X</div>
+            </div>
+          </div>
+          <div class="u-select-input-company-div u-input-company" [ngStyle]="{ width: (relationCompanyList.length<5?(100-(relationCompanyList.length*20))+'%':'0')}" >
+            <div class="u-form-control-div">
+            <input [hidden]="relationCompanyList.length>=5"
+                   [disabled]="exportFileState == 1"
+                   class="u-form-control" placeholder="请输入您要查询的公司名称或代码，5个以上请使用批量导入功能"
+                    [(ngModel)]="inputData"
+                    (click)="clickFun(inputData,activeClassType)"
+                    (keyup)="keyUpFun($event,inputData)" maxlength="100" id="seleItem">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12 align-right">
+      <span class="export-input" [hidden]="activeClassType==1?true:(inputData.trim()!='' || relationCompanyList.length !=0)">
+        <a class="u-a-color999-under">批量导入</a>
+        <input type="file" (change)="exportFile($event)"  class="u-a-color999-under " accept="text/plain">
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-12">
+    <div class="col-lg-12 " [hidden]="!selectDivFlag || (inputData ==''&& exportFileState == 0 )" >
+      <div class="col-lg-11 select-data-body m-scrollbar col-lg-offset-1 b-border padding-left-right_0">
+        <!-- 文件导入状态消息 -->
+        <div class="col-lg-12 padding-10 color-fff" [hidden]="(exportFileState == 0)" >
+          {{ exportFileMessage }}
+        </div>
+
+        <!-- 非文件导入状态-->
+        <div  [hidden]="exportFileState != 0">
+          <div class="col-lg-12 padding-10" *ngIf="selectState == 1">
+            搜索中...
+          </div>
+          <div  *ngIf="selectState == 2" [ngClass]="{'error':(activeClassType==2?(relationCompanyList.length>=5):false)}">
+            <div class="col-lg-12 padding-10" *ngIf=" (findDataList == null)||(findDataList.length == 0)">
+              暂无数据
+            </div>
+            <div class="col-lg-12 padding-10 sz-news" *ngFor="let companyInfo of findDataList" (click)="clickCompany(companyInfo,activeClassType,relationCompanyList)">
+              <div class="col-lg-12">
+                <span class="font-12 color-999"> {{companyInfo.type}} ：</span>
+              </div>
+              <div class="col-lg-12 font-18 fontW-700">{{companyInfo.companyNm}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

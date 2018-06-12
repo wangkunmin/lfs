@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="u-follow" *ngIf="flag.followFlag" [ngStyle]="{'right': flag.rightFlag ? '15px':'0'}">
+    <ul (click)="showFollow()">
+      <li><img class="img-eye" src="assets/images/svg/eye/risk-fa-eye.svg"><span>重点</span></li>
+      <li>关注公司</li>
+    </ul>
+  </div>
+  <app-risk-menu [flag]="flag" [userFollow]="userFollow" [userId]="userId" (followFlag)="offRiskMenu($event)"></app-risk-menu>
+  <div id="followContent" class="float-left">
+    <router-outlet ></router-outlet>
+  </div>
+</div>

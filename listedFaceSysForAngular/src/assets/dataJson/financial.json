@@ -1,0 +1,245 @@
+[
+  {
+    "20160930": "三季度报告",
+    "20161231": "年度报告",
+    "20170331": "一季度报告",
+    "20170630": "半年度报告",
+    "lkpFinansubjectdispSid": 1209,
+    "subjectCd": "00",
+    "subjectNm": "报告期",
+    "parentSubjectCd": "00",
+    "subjectLevel": 1,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "00"
+    ]
+  },
+  {
+    "20160930": "上市后",
+    "20161231": "上市后",
+    "20170331": "上市后",
+    "20170630": "上市后",
+    "lkpFinansubjectdispSid": 95,
+    "subjectCd": "01",
+    "subjectNm": "上市前/上市后",
+    "parentSubjectCd": "0",
+    "subjectLevel": 1,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "01"
+    ]
+  },
+  {
+    "20160930": "通用",
+    "20161231": "通用",
+    "20170331": "通用",
+    "20170630": "通用",
+    "lkpFinansubjectdispSid": 96,
+    "subjectCd": "02",
+    "subjectNm": "公司类型",
+    "parentSubjectCd": "0",
+    "subjectLevel": 1,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "02"
+    ]
+  },
+  {
+    "20160930": "合并",
+    "20161231": "合并",
+    "20170331": "合并",
+    "20170630": "合并",
+    "lkpFinansubjectdispSid": 97,
+    "subjectCd": "03",
+    "subjectNm": "报表类型",
+    "parentSubjectCd": "0",
+    "subjectLevel": 1,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "03"
+    ]
+  },
+  {
+    "lkpFinansubjectdispSid": 98,
+    "subjectCd": "04",
+    "subjectNm": "流动资产:",
+    "parentSubjectCd": "0",
+    "subjectLevel": 1,
+    "isLabel": 1,
+    "isBold": 1,
+    "isFormular": 0,
+    "group": [
+      "04"
+    ]
+  },
+  {
+    "20160930": "66,529,681.43",
+    "20161231": "72,129,542.79",
+    "20170331": "77,324,289.56",
+    "20170630": "81,223,494.31",
+    "lkpFinansubjectdispSid": 125,
+    "subjectCd": "05",
+    "subjectNm": "流动资产合计(万元)",
+    "parentSubjectCd": "0",
+    "subjectLevel": 1,
+    "isLabel": 0,
+    "isBold": 1,
+    "isFormular": 0,
+    "group": [
+      "05"
+    ]
+  },
+  {
+    "20160930": "7,518,701.76",
+    "20161231": "8,703,211.82",
+    "20170331": "9,096,914.31",
+    "20170630": "10,756,320.61",
+    "lkpFinansubjectdispSid": 99,
+    "subjectCd": "0401",
+    "subjectNm": "­­货币资金(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0401"
+    ]
+  },
+  {
+    "20160930": "250,427.20",
+    "20161231": "207,525.68",
+    "20170331": "173,449.81",
+    "20170630": "169,482.97",
+    "lkpFinansubjectdispSid": 106,
+    "subjectCd": "0407",
+    "subjectNm": "­­应收账款(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0407"
+    ]
+  },
+  {
+    "20160930": "4,939,799.20",
+    "20161231": "5,026,254.06",
+    "20170331": "6,015,085.72",
+    "20170630": "6,896,325.45",
+    "lkpFinansubjectdispSid": 107,
+    "subjectCd": "0408",
+    "subjectNm": "­­预付款项(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0408"
+    ]
+  },
+  {
+    "20160930": "8,827,178.96",
+    "20161231": "10,543,500.49",
+    "20170331": "12,504,455.37",
+    "20170630": "12,460,243.59",
+    "lkpFinansubjectdispSid": 113,
+    "subjectCd": "0414",
+    "subjectNm": "­­其他应收款(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0414"
+    ]
+  },
+  {
+    "20160930": "44,685,041.21",
+    "20161231": "46,736,133.61",
+    "20170331": "49,163,669.14",
+    "20170630": "49,629,905.40",
+    "lkpFinansubjectdispSid": 118,
+    "subjectCd": "0419",
+    "subjectNm": "­­存货(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0419"
+    ]
+  },
+  {
+    "20160930": null,
+    "20161231": null,
+    "20170331": null,
+    "20170630": "909,775.72",
+    "lkpFinansubjectdispSid": 119,
+    "subjectCd": "0420",
+    "subjectNm": "­­划分为持有待售的资产(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0420"
+    ]
+  },
+  {
+    "20160930": "307,830.00",
+    "20161231": "867,050.00",
+    "20170331": "364,000.00",
+    "20170630": "400,800.00",
+    "lkpFinansubjectdispSid": 122,
+    "subjectCd": "0423",
+    "subjectNm": "­­其他流动资产(万元)",
+    "parentSubjectCd": "04",
+    "subjectLevel": 2,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "04",
+      "0423"
+    ]
+  },
+
+
+  {
+    "20160930": "三季度报告",
+    "20161231": "半年度报告",
+    "20170331": "一季度报告",
+    "20170630": "半年度报告",
+    "lkpFinansubjectdispSid": 228,
+    "subjectCd": "25",
+    "subjectNm": "数据来源",
+    "parentSubjectCd": "0",
+    "subjectLevel": 1,
+    "isLabel": 0,
+    "isBold": 0,
+    "isFormular": 0,
+    "group": [
+      "25"
+    ]
+  }
+]

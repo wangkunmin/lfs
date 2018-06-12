@@ -1,0 +1,182 @@
+.geog-chart {
+  height: 400px;
+}
+
+.sz-geography .col-lg-4{
+  width: 357px;
+  height: 98px;
+}
+.ge0-c0 {
+  color: #3F51B5;
+}
+.ge0-c1 {
+  color: #4CAF50;
+}
+.ge0-c2 {
+  color: #9B89EF;
+}
+.geo-mgn {
+  margin-left: 4.5px;
+  margin-right: 4.5px;
+}
+
+
+.geo-tab{
+  width: 50%;
+}
+.geo-tab .tab-value{
+  width: 100px;
+  padding: 5px 20px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin-left: -1px;
+  margin-top: -1px;
+  border: 1px solid #E5E9F1;
+  color: #657899;
+}
+
+.geo-tab .active{
+  color: #3F51B5;
+  background: #F7F9FB;
+}
+
+
+.height0{
+  height: 0;
+}
+
+.geo-li-title{
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 68px;
+  color: #999;
+  text-align: right;
+}
+
+
+.geo-mgn-left {
+  margin-left: 5px;
+}
+.width266{
+  width: 266px;
+}
+
+
+
+.geography-li-title{
+  font-size: 36px;
+  letter-spacing: 0;
+  height: 51px;
+}
+.geography-li-subtitle{
+  font-size: 12px;
+  letter-spacing: 0;
+  padding-left: 12px;
+}
+
+
+
+
+
+.child-map-HeightModal {
+  height: 330px;
+  text-align: center;
+}
+.negative-all-company{
+  height: 400px;
+  overflow: auto;
+  background: #FFFFFF;
+  box-shadow: 0 12px 22px 0 rgba(0,0,0,0.24);
+}
+
+.negative-company{
+  border-bottom: 1px solid #ccc;
+}
+
+.background-6770E0{
+  background-color: #6770E0;
+}
+
+.geog-chart-right{
+  width: 150px;
+  padding-top: 70px;
+  position: relative;
+  left: 960px;
+}
+
+.geog-chart-right .geog-chart-right-div{
+  width: 150px;
+  margin-top: 20px;
+}
+
+.geog-chart-right .geog-chart-right-div .li-subtitle{
+  font-size: 20px;
+}
+
+.geog-chart-div{
+  position: absolute;
+  height: 400px;
+}
+.height400{
+  height: 400px;
+}
+
+
+.geography-box-shadow .active{
+  box-shadow: 0 12px 22px 0 rgba(0,0,0,0.24);
+  border-radius: 2px;
+}
+.geography-box-shadow .active .geography-li-title{
+  color: #303F9F;
+}
+
+
+.col-lg-2_4{
+  width: 19.64%;
+}
+.width212_11{
+  width: 212.11px;
+}
+
+
+.back-geo{
+  height: 0;
+  margin-left: -77px;
+  margin-bottom: -7px;
+  padding-top: 5px;
+}
+
+.back-geo-title{
+  padding: 2px 12px;
+  background: #FFFFFF;
+  border: 1px solid #E5E9F1;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #657899;
+  letter-spacing: 0;
+}
+
+
+.m-head-subtitle{
+  display: inline;
+  float: right;
+  font-size: 12px;
+  color: #A8B8D0;
+  letter-spacing: 0;
+}
+
+
+.in-geo-back{
+  float: right;
+  position: relative;
+  height: 0;
+  right: 34px;
+  top: 8px;
+  z-index: 2;
+}
+
+
+.risk-content{
+
+}

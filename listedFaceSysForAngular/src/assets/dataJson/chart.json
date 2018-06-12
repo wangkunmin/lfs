@@ -1,0 +1,3242 @@
+{
+  "1": [
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a90182ff85ff89137017",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "82ff85ff89137017"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "贵阳万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "82ff85ff89137017",
+        "link_id": "6LS16Ziz5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 42.5,
+        "id": "30923b4cbcac3a90146870c2dab1d1c30",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "46870c2dab1d1c30"
+      },
+      "node": {
+        "company_type": [
+          "P"
+        ],
+        "risk_label": null,
+        "name": "深圳前海基础设施投资基金管理有限公司",
+        "label": "1",
+        "labels": [
+          "1",
+          "5"
+        ],
+        "id": "46870c2dab1d1c30",
+        "link_id": "5rex5Zyz5YmN5rW35Z_656GA6K6_5pa95oqV6LWE5Z_66YeR566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9017faa3cbbd035c12f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "7faa3cbbd035c12f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "郑州万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "7faa3cbbd035c12f",
+        "link_id": "6YOR5bee5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901e839f932ac692f72",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "e839f932ac692f72"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山耒金企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "e839f932ac692f72",
+        "link_id": "5piG5bGx6ICS6YeR5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901196ebcc5c6fbfe22",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "196ebcc5c6fbfe22"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳万歌音像商场",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "196ebcc5c6fbfe22",
+        "link_id": "5rex5Zyz5LiH5q2M6Z_z5YOP5ZWG5Zy6"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90123ca3d92c8dac568",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "23ca3d92c8dac568"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "宁波万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "23ca3d92c8dac568",
+        "link_id": "5a6B5rOi5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901c5be3a54272ffb1c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "c5be3a54272ffb1c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山卓特尔企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "c5be3a54272ffb1c",
+        "link_id": "5piG5bGx5Y2T54m55bCU5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9015d19561e5658d385",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "5d19561e5658d385"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "西安万科企业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "5d19561e5658d385",
+        "link_id": "6KW-5a6J5LiH56eR5LyB5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 3.06,
+        "id": "30923b4cbcac3a90190ff5b87c9565b83",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "90ff5b87c9565b83"
+      },
+      "node": {
+        "company_type": [
+          "F",
+          "3"
+        ],
+        "risk_label": [
+          26,
+          22
+        ],
+        "name": "上海中城联盟投资管理股份有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "90ff5b87c9565b83",
+        "link_id": "371829"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901cf194aa0d6af0275",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "cf194aa0d6af0275"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "莆田市万科投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "cf194aa0d6af0275",
+        "link_id": "6I6G55Sw5biC5LiH56eR5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901e52b4d4ea8f247e5",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "e52b4d4ea8f247e5"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "北京万科建筑技术研究有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "e52b4d4ea8f247e5",
+        "link_id": "5YyX5Lqs5LiH56eR5bu6562R5oqA5pyv56CU56m25pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901082297270f76fc1c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "082297270f76fc1c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "重庆四季流辉置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "082297270f76fc1c",
+        "link_id": "6YeN5bqG5Zub5a2j5rWB6L6J572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901cab3416e961fbd7c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "cab3416e961fbd7c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "济南万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "cab3416e961fbd7c",
+        "link_id": "5rWO5Y2X5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901d84eb7cafb8c55f8",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "d84eb7cafb8c55f8"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科置业(海外)有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "d84eb7cafb8c55f8",
+        "link_id": "5LiH56eR572u5LiaKOa1t_WklinmnInpmZDlhazlj7g."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9012e09d8c62c3c7fde",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "2e09d8c62c3c7fde"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科(重庆)房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "2e09d8c62c3c7fde",
+        "link_id": "5LiH56eRKOmHjeW6hinmiL-lnLDkuqfmnInpmZDlhazlj7g."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901ee66f6693838aa0f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "ee66f6693838aa0f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "东莞市万科建筑技术研究有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "ee66f6693838aa0f",
+        "link_id": "5Lic6I6e5biC5LiH56eR5bu6562R5oqA5pyv56CU56m25pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901f79ad9f1ebade897",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "f79ad9f1ebade897"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "芜湖万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "f79ad9f1ebade897",
+        "link_id": "6Iqc5rmW5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901200d9db4a68b1ca0",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "200d9db4a68b1ca0"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "海南万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "200d9db4a68b1ca0",
+        "link_id": "5rW35Y2X5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901c2dce68560a35b1f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "c2dce68560a35b1f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "兰州万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "c2dce68560a35b1f",
+        "link_id": "5YWw5bee5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901ce510e4f3c6e9acb",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "ce510e4f3c6e9acb"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "东莞市万科物业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "ce510e4f3c6e9acb",
+        "link_id": "5Lic6I6e5biC5LiH56eR54mp5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9010148f71adc6123bf",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "0148f71adc6123bf"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科(张家口)旅游开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "0148f71adc6123bf",
+        "link_id": "5LiH56eRKOW8oOWutuWPoynml4XmuLjlvIDlj5HmnInpmZDlhazlj7g."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901a829b1e777e65f8c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a829b1e777e65f8c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "福州市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a829b1e777e65f8c",
+        "link_id": "56aP5bee5biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901bf9f37115187a2de",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "bf9f37115187a2de"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "长春万科物业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "bf9f37115187a2de",
+        "link_id": "6ZW-5pil5LiH56eR54mp5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90159d94c7401645eb9",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "59d94c7401645eb9"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "天津万科物业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "59d94c7401645eb9",
+        "link_id": "5aSp5rSl5LiH56eR54mp5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 80,
+        "id": "30923b4cbcac3a901f7d3805073fdca0b",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "f7d3805073fdca0b"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "青岛万科银盛泰房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "f7d3805073fdca0b",
+        "link_id": "6Z2S5bKb5LiH56eR6ZO255ub5rOw5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90103c50b9a8ef2ea88",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "03c50b9a8ef2ea88"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科置业(香港)有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "03c50b9a8ef2ea88",
+        "link_id": "5LiH56eR572u5LiaKOmmmea4rynmnInpmZDlhazlj7g."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901fbfc8f733bfb855a",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "fbfc8f733bfb855a"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海万科房地产集团有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "fbfc8f733bfb855a",
+        "link_id": "5LiK5rW35LiH56eR5oi-5Zyw5Lqn6ZuG5Zui5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90197ac07568239b35b",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "97ac07568239b35b"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆明万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "97ac07568239b35b",
+        "link_id": "5piG5piO5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9017d8f4716d30f8ad7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "7d8f4716d30f8ad7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "沈阳万科物业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "7d8f4716d30f8ad7",
+        "link_id": "5rKI6Ziz5LiH56eR54mp5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901e8ca814ddc46ddb5",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "e8ca814ddc46ddb5"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳万科物业服务有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "e8ca814ddc46ddb5",
+        "link_id": "5rex5Zyz5LiH56eR54mp5Lia5pyN5Yqh5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 50,
+        "id": "30923b4cbcac3a9013abbdc3f378f6094",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "3abbdc3f378f6094"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "江西万科青山湖房地产发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "3abbdc3f378f6094",
+        "link_id": "5rGf6KW-5LiH56eR6Z2S5bGx5rmW5oi-5Zyw5Lqn5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901734047a551bef871",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "734047a551bef871"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "长沙万盈公寓管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "734047a551bef871",
+        "link_id": "6ZW-5rKZ5LiH55uI5YWs5a_T566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9013bb861af7737e04c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "3bb861af7737e04c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "佛山市万科物业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "3bb861af7737e04c",
+        "link_id": "5L2b5bGx5biC5LiH56eR54mp5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901efaec9f79faba025",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "efaec9f79faba025"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科物业发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "efaec9f79faba025",
+        "link_id": "5rex5Zyz5biC5LiH56eR54mp5Lia5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901d69a25c94cce579f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "d69a25c94cce579f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "Gain Pioneer Limited",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "d69a25c94cce579f",
+        "link_id": "R2FpbiBQaW9uZWVyIExpbWl0ZWQ."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90109e6964d690544d1",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "09e6964d690544d1"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "Nevins Street Vanke Member LLC",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "09e6964d690544d1",
+        "link_id": "TmV2aW5zIFN0cmVldCBWYW5rZSBNZW1iZXIgTExD"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901a5b8a17aab6eb64d",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a5b8a17aab6eb64d"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "130W42 Onshore Member LLC",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a5b8a17aab6eb64d",
+        "link_id": "MTMwVzQyIE9uc2hvcmUgTWVtYmVyIExMQw.."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901c46ac3449fa0fe1e",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "c46ac3449fa0fe1e"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "武汉市万科物业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "c46ac3449fa0fe1e",
+        "link_id": "5q2m5rGJ5biC5LiH56eR54mp5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901634d892e7b49dc94",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "634d892e7b49dc94"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市深潜教育培训有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "634d892e7b49dc94",
+        "link_id": "5rex5Zyz5biC5rex5r2c5pWZ6IKy5Z_56K6t5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9015ccac9dc6e7008d7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "5ccac9dc6e7008d7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "福州市万榕房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "5ccac9dc6e7008d7",
+        "link_id": "56aP5bee5biC5LiH5qaV5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901b63a53f90c09f868",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "b63a53f90c09f868"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "永达中国投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "b63a53f90c09f868",
+        "link_id": "5rC46L6_5Lit5Zu95oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901b64f035e6a3494f7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "b64f035e6a3494f7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "武汉市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "b64f035e6a3494f7",
+        "link_id": "5q2m5rGJ5biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90168fe415e3ed1988e",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "68fe415e3ed1988e"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "徐州万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "68fe415e3ed1988e",
+        "link_id": "5b6Q5bee5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9013f8c09ba7053d0e3",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "3f8c09ba7053d0e3"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科置业地产(香港)有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "3f8c09ba7053d0e3",
+        "link_id": "5LiH56eR572u5Lia5Zyw5LqnKOmmmea4rynmnInpmZDlhazlj7g."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 65,
+        "id": "30923b4cbcac3a9010a84ba85e35bce66",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "0a84ba85e35bce66"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "扬州万维置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "0a84ba85e35bce66",
+        "link_id": "5oms5bee5LiH57u0572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901b954106148052f71",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "b954106148052f71"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科地产(香港)有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "b954106148052f71",
+        "link_id": "5LiH56eR5Zyw5LqnKOmmmea4rynmnInpmZDlhazlj7g."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a901c837a8eaf66af844",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "c837a8eaf66af844"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "长春万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "c837a8eaf66af844",
+        "link_id": "6ZW-5pil5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9019135a923af8e4af8",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "9135a923af8e4af8"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "130W42 Offshore Member LLC",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "9135a923af8e4af8",
+        "link_id": "MTMwVzQyIE9mZnNob3JlIE1lbWJlciBMTEM."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9015a82fee69aed5ad0",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "5a82fee69aed5ad0"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "宁波万裕置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "5a82fee69aed5ad0",
+        "link_id": "5a6B5rOi5LiH6KOV572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901134d91b1c29bdb34",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "134d91b1c29bdb34"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "南京万翔仓储管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "134d91b1c29bdb34",
+        "link_id": "5Y2X5Lqs5LiH57_U5LuT5YKo566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901470df47eaae3c28c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "470df47eaae3c28c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "Vanke 11 Hoyt LP LLC",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "470df47eaae3c28c",
+        "link_id": "VmFua2UgMTEgSG95dCBMUCBMTEM."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 40,
+        "id": "30923b4cbcac3a90119265fa93c2bae2b",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "19265fa93c2bae2b"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "珠海市万维纵横投资发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "19265fa93c2bae2b",
+        "link_id": "54_g5rW35biC5LiH57u057q15qiq5oqV6LWE5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90138161f216e656544",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "38161f216e656544"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "南宁市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "38161f216e656544",
+        "link_id": "5Y2X5a6B5biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 2.8,
+        "id": "30923b4cbcac3a901d47a1ee70110c842",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "d47a1ee70110c842"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "恒大地产股份有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "d47a1ee70110c842",
+        "link_id": "5oGS5aSn5Zyw5Lqn6IKh5Lu95pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9016b1a32455ac551af",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6b1a32455ac551af"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "太原万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "6b1a32455ac551af",
+        "link_id": "5aSq5Y6f5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 30,
+        "id": "30923b4cbcac3a90185269a8083ee1d57",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "85269a8083ee1d57"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海尊怡物业服务有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "85269a8083ee1d57",
+        "link_id": "5LiK5rW35bCK5oCh54mp5Lia5pyN5Yqh5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9016f683160b4232c78",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6f683160b4232c78"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "长沙市万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "6f683160b4232c78",
+        "link_id": "6ZW-5rKZ5biC5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90174e40143eb9b7d9f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "74e40143eb9b7d9f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "中山市万科置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "74e40143eb9b7d9f",
+        "link_id": "5Lit5bGx5biC5LiH56eR572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901715cbbcb88ba4f90",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "715cbbcb88ba4f90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山誉之诚企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "715cbbcb88ba4f90",
+        "link_id": "5piG5bGx6KqJ5LmL6K_a5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90137585b4230b7fbcb",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "37585b4230b7fbcb"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "浙江浙南万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "37585b4230b7fbcb",
+        "link_id": "5rWZ5rGf5rWZ5Y2X5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901e3ef554a0d41a0ee",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "e3ef554a0d41a0ee"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "烟台万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "e3ef554a0d41a0ee",
+        "link_id": "54Of5Y_w5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90151b37e0222d388ef",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "51b37e0222d388ef"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "珠海市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "51b37e0222d388ef",
+        "link_id": "54_g5rW35biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9011e113f3e469523b2",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "1e113f3e469523b2"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "雄安万科企业投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "1e113f3e469523b2",
+        "link_id": "6ZuE5a6J5LiH56eR5LyB5Lia5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901b688f706fab0402d",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "b688f706fab0402d"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳万事佳商务咨询有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "b688f706fab0402d",
+        "link_id": "5rex5Zyz5LiH5LqL5L2z5ZWG5Yqh5ZKo6K_i5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901a0c3e582230fa3b3",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a0c3e582230fa3b3"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万丈资本有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a0c3e582230fa3b3",
+        "link_id": "5LiH5LiI6LWE5pys5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901405e413d0d5ea46d",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "405e413d0d5ea46d"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科企业集团(简称：万科集团)",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "405e413d0d5ea46d",
+        "link_id": "5LiH56eR5LyB5Lia6ZuG5ZuiKOeugOensO_8muS4h_enkembhuWboik."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a90154bf16d6545230f2",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "54bf16d6545230f2"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山恒瑞宝企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "54bf16d6545230f2",
+        "link_id": "5piG5bGx5oGS55Ge5a6d5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901875ef3d09a193424",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "875ef3d09a193424"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科物流发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "875ef3d09a193424",
+        "link_id": "5LiH56eR54mp5rWB5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9011dddb96cf60e57c6",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "1dddb96cf60e57c6"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "中航万科有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "1dddb96cf60e57c6",
+        "link_id": "5Lit6Iiq5LiH56eR5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 51,
+        "id": "30923b4cbcac3a901466837b9d1b0f363",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "466837b9d1b0f363"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "佛山市南海区万意恒利置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "466837b9d1b0f363",
+        "link_id": "5L2b5bGx5biC5Y2X5rW35Yy65LiH5oSP5oGS5Yip572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901a60d8fd77c86cdf7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a60d8fd77c86cdf7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山品铭富企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a60d8fd77c86cdf7",
+        "link_id": "5piG5bGx5ZOB6ZOt5a_M5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90151a4d0219ba99ec6",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "51a4d0219ba99ec6"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "江苏苏南万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "51a4d0219ba99ec6",
+        "link_id": "5rGf6IuP6IuP5Y2X5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9013db8b5e25850e501",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "3db8b5e25850e501"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "Vanke Holdings USA LLC",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "3db8b5e25850e501",
+        "link_id": "VmFua2UgSG9sZGluZ3MgVVNBIExMQw.."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901f1cd73ae2c978fcc",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "f1cd73ae2c978fcc"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "南宁市万科投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "f1cd73ae2c978fcc",
+        "link_id": "5Y2X5a6B5biC5LiH56eR5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 20,
+        "id": "30923b4cbcac3a9010622f6df5c4bbe83",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "0622f6df5c4bbe83"
+      },
+      "node": {
+        "company_type": [
+          "P"
+        ],
+        "risk_label": null,
+        "name": "中长胜基金管理有限公司",
+        "label": "1",
+        "labels": [
+          "1",
+          "5"
+        ],
+        "id": "0622f6df5c4bbe83",
+        "link_id": "5Lit6ZW-6IOc5Z_66YeR566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a90106c318089eb24b12",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "06c318089eb24b12"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科工业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "06c318089eb24b12",
+        "link_id": "5rex5Zyz5biC5LiH56eR5bel5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9015ad2c595570d94b5",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "5ad2c595570d94b5"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "扬州万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "5ad2c595570d94b5",
+        "link_id": "5oms5bee5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 51,
+        "id": "30923b4cbcac3a901cc2d1e43eda6a10d",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "cc2d1e43eda6a10d"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "云南万科城投房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "cc2d1e43eda6a10d",
+        "link_id": "5LqR5Y2X5LiH56eR5Z_O5oqV5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9016e62bebf0065e6ea",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6e62bebf0065e6ea"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "珠海市万马奔腾投资发展合伙企业(有限合伙)",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "6e62bebf0065e6ea",
+        "link_id": "54_g5rW35biC5LiH6ams5aWU6IW_5oqV6LWE5Y_R5bGV5ZCI5LyZ5LyB5LiaKOaciemZkOWQiOS8mSk."
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90161d869ea0617d27f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "61d869ea0617d27f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海万业向荣城市建设发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "61d869ea0617d27f",
+        "link_id": "5LiK5rW35LiH5Lia5ZCR6I2j5Z_O5biC5bu66K6_5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901daade456cea973a7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "daade456cea973a7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "长沙万瑞公寓管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "daade456cea973a7",
+        "link_id": "6ZW-5rKZ5LiH55Ge5YWs5a_T566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9014cbd6d2cbc226ac4",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "4cbd6d2cbc226ac4"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山启特企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "4cbd6d2cbc226ac4",
+        "link_id": "5piG5bGx5ZCv54m55LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 51,
+        "id": "30923b4cbcac3a9016bd4d4c31d4b1509",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6bd4d4c31d4b1509"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "佛山市南海区万科乐恒置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "6bd4d4c31d4b1509",
+        "link_id": "5L2b5bGx5biC5Y2X5rW35Yy65LiH56eR5LmQ5oGS572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 65,
+        "id": "30923b4cbcac3a901e60acd3a53114e24",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "e60acd3a53114e24"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "大连万科锦绣花城开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "e60acd3a53114e24",
+        "link_id": "5aSn6L_e5LiH56eR6ZSm57uj6Iqx5Z_O5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a90182814634d3f147a9",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "82814634d3f147a9"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科中西部企业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "82814634d3f147a9",
+        "link_id": "5LiH56eR5Lit6KW-6YOo5LyB5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a9019f4c5a0a6895944a",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "9f4c5a0a6895944a"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "9f4c5a0a6895944a",
+        "link_id": "5rex5Zyz5biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9019813c15996bab9c7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "9813c15996bab9c7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海方摄置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "9813c15996bab9c7",
+        "link_id": "5LiK5rW35pa55pGE572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 90,
+        "id": "30923b4cbcac3a90166cfd038ad729b6e",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "66cfd038ad729b6e"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "广州市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "66cfd038ad729b6e",
+        "link_id": "5bm-5bee5biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9014deb4e7e3d596caf",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "4deb4e7e3d596caf"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山特尼亚企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "4deb4e7e3d596caf",
+        "link_id": "5piG5bGx54m55bC85Lqa5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 60,
+        "id": "30923b4cbcac3a9012a8d28e15546dc93",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "2a8d28e15546dc93"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳万科前田建筑技术有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "2a8d28e15546dc93",
+        "link_id": "5rex5Zyz5LiH56eR5YmN55Sw5bu6562R5oqA5pyv5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a901cff93ce8b181e76b",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "cff93ce8b181e76b"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "新疆万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "cff93ce8b181e76b",
+        "link_id": "5paw55aG5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90155c05becfe62ed85",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "55c05becfe62ed85"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "佛山市顺德区陈村万科置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "55c05becfe62ed85",
+        "link_id": "5L2b5bGx5biC6aG65b635Yy66ZmI5p2R5LiH56eR572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901b77ddff222f041c2",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "b77ddff222f041c2"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海万狮置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "b77ddff222f041c2",
+        "link_id": "5LiK5rW35LiH54uu572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9017174e0b5dc363a88",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "7174e0b5dc363a88"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山驰而达企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "7174e0b5dc363a88",
+        "link_id": "5piG5bGx6amw6ICM6L6_5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a9013d48dbb9b5611c9e",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "3d48dbb9b5611c9e"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科贸易有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "3d48dbb9b5611c9e",
+        "link_id": "5rex5Zyz5biC5LiH56eR6LS45piT5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0.42,
+        "id": "30923b4cbcac3a90148a09422f3d85823",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "48a09422f3d85823"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "北京银建实业股份有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "48a09422f3d85823",
+        "link_id": "5YyX5Lqs6ZO25bu65a6e5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 63,
+        "id": "30923b4cbcac3a901a22a2a67afd541ab",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a22a2a67afd541ab"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科物业发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a22a2a67afd541ab",
+        "link_id": "5LiH56eR54mp5Lia5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 30.8,
+        "id": "30923b4cbcac3a901330a6c6cf2b8be6f",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "330a6c6cf2b8be6f"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "珠海市万亿纵横资产管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "330a6c6cf2b8be6f",
+        "link_id": "54_g5rW35biC5LiH5Lq-57q15qiq6LWE5Lqn566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a90172dfaec7aa9ce7a4",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "72dfaec7aa9ce7a4"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山百宇达企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "72dfaec7aa9ce7a4",
+        "link_id": "5piG5bGx55m_5a6H6L6_5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901055fbe8774cfdae4",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "055fbe8774cfdae4"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海永章资产管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "055fbe8774cfdae4",
+        "link_id": "5LiK5rW35rC456ug6LWE5Lqn566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 90,
+        "id": "30923b4cbcac3a901859b854b4ce4e1bc",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "859b854b4ce4e1bc"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "成都万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "859b854b4ce4e1bc",
+        "link_id": "5oiQ6YO95LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 80,
+        "id": "30923b4cbcac3a9018c5e35b8d2b6aa07",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "8c5e35b8d2b6aa07"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "莆田市万科置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "8c5e35b8d2b6aa07",
+        "link_id": "6I6G55Sw5biC5LiH56eR572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901b5dae4048aa6cb95",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "b5dae4048aa6cb95"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "厦门市万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "b5dae4048aa6cb95",
+        "link_id": "5Y6m6Zeo5biC5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901c20e6386fb84113c",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "c20e6386fb84113c"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "合肥万科置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "c20e6386fb84113c",
+        "link_id": "5ZCI6IKl5LiH56eR572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 15,
+        "id": "30923b4cbcac3a901d383242aba6cf3dd",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "d383242aba6cf3dd"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "广东中建新型建筑构件有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "d383242aba6cf3dd",
+        "link_id": "5bm-5Lic5Lit5bu65paw5Z6L5bu6562R5p6E5Lu25pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901047ccc3968601380",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "047ccc3968601380"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "万科中西部投资发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "047ccc3968601380",
+        "link_id": "5LiH56eR5Lit6KW-6YOo5oqV6LWE5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901df254587b606fcf2",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "df254587b606fcf2"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科产业园投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "df254587b606fcf2",
+        "link_id": "5rex5Zyz5biC5LiH56eR5Lqn5Lia5Zut5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901104d923209dd371d",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "104d923209dd371d"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市盈达投资基金管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "104d923209dd371d",
+        "link_id": "5rex5Zyz5biC55uI6L6_5oqV6LWE5Z_66YeR566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901885698ea64e0c1ca",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "885698ea64e0c1ca"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山聚卓企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "885698ea64e0c1ca",
+        "link_id": "5piG5bGx6IGa5Y2T5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90191c844d04437c2d7",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "91c844d04437c2d7"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "大连万科置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "91c844d04437c2d7",
+        "link_id": "5aSn6L_e5LiH56eR572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9012cab72605c429c6a",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "2cab72605c429c6a"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科物流投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "2cab72605c429c6a",
+        "link_id": "5rex5Zyz5biC5LiH56eR54mp5rWB5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901a32ca63e4c8a5705",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a32ca63e4c8a5705"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海万科投资管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a32ca63e4c8a5705",
+        "link_id": "5LiK5rW35LiH56eR5oqV6LWE566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 50,
+        "id": "30923b4cbcac3a901564d7c5d5174f0df",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "564d7c5d5174f0df"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "江西万科益达置业投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "564d7c5d5174f0df",
+        "link_id": "5rGf6KW-5LiH56eR55uK6L6_572u5Lia5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901c755dbdb6d07e0bd",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "c755dbdb6d07e0bd"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山永之求企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "c755dbdb6d07e0bd",
+        "link_id": "5piG5bGx5rC45LmL5rGC5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901f8d71b772d0f1dbe",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "f8d71b772d0f1dbe"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "上海伍翎投资中心(有限合伙)",
+        "label": "3",
+        "labels": [
+          "1",
+          "3"
+        ],
+        "id": "f8d71b772d0f1dbe",
+        "link_id": "17623562"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901ef3820983d21c237",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "ef3820983d21c237"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "北京万科企业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "ef3820983d21c237",
+        "link_id": "5YyX5Lqs5LiH56eR5LyB5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a901dd659fb2280287c4",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "dd659fb2280287c4"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "昆山新兰丰企业管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "dd659fb2280287c4",
+        "link_id": "5piG5bGx5paw5YWw5Liw5LyB5Lia566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 49,
+        "id": "30923b4cbcac3a90193cf772b596b565e",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "93cf772b596b565e"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳地铁万科投资发展有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "93cf772b596b565e",
+        "link_id": "5rex5Zyz5Zyw6ZOB5LiH56eR5oqV6LWE5Y_R5bGV5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a90199cba386ad226a81",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "99cba386ad226a81"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "青岛万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "99cba386ad226a81",
+        "link_id": "6Z2S5bKb5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9017f0d9cd19cde24fb",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "7f0d9cd19cde24fb"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "南京万科置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "7f0d9cd19cde24fb",
+        "link_id": "5Y2X5Lqs5LiH56eR572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a90131956c992039a163",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "31956c992039a163"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "沈阳万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "31956c992039a163",
+        "link_id": "5rKI6Ziz5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 50,
+        "id": "30923b4cbcac3a90126ad4ca47f07560b",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "26ad4ca47f07560b"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "北京东方万科投资管理有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "26ad4ca47f07560b",
+        "link_id": "5YyX5Lqs5Lic5pa55LiH56eR5oqV6LWE566h55CG5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9014cc4d41aeb4040c9",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "4cc4d41aeb4040c9"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "福州市万磊投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "4cc4d41aeb4040c9",
+        "link_id": "56aP5bee5biC5LiH56OK5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 51,
+        "id": "30923b4cbcac3a901089e2faa393e423a",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "089e2faa393e423a"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "扬州万胜置业有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "089e2faa393e423a",
+        "link_id": "5oms5bee5LiH6IOc572u5Lia5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a901004820ca2ffa30b0",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "004820ca2ffa30b0"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "珠海市万翼网络科技有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "004820ca2ffa30b0",
+        "link_id": "54_g5rW35biC5LiH57_8572R57uc56eR5oqA5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 0,
+        "id": "30923b4cbcac3a9010e6542e688f43130",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "0e6542e688f43130"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "武汉万科祥盈管理服务有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "0e6542e688f43130",
+        "link_id": "5q2m5rGJ5LiH56eR56Wl55uI566h55CG5pyN5Yqh5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 60,
+        "id": "30923b4cbcac3a9015e4996617efcfcc4",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "5e4996617efcfcc4"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "北京市朝阳万科房地产开发有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "5e4996617efcfcc4",
+        "link_id": "5YyX5Lqs5biC5pyd6Ziz5LiH56eR5oi-5Zyw5Lqn5byA5Y_R5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 100,
+        "id": "30923b4cbcac3a9016d7d14d5465079ee",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6d7d14d5465079ee"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市乐跑运动推广传播有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "6d7d14d5465079ee",
+        "link_id": "5rex5Zyz5biC5LmQ6LeR6L_Q5Yqo5o6o5bm-5Lyg5pKt5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 95,
+        "id": "30923b4cbcac3a901cc862fb82012db25",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "cc862fb82012db25"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市万科财务顾问有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "cc862fb82012db25",
+        "link_id": "5rex5Zyz5biC5LiH56eR6LSi5Yqh6aG_6Zeu5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 90,
+        "id": "30923b4cbcac3a90146e7dcd834dac557",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "46e7dcd834dac557"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市联动电子商务有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "46e7dcd834dac557",
+        "link_id": "5rex5Zyz5biC6IGU5Yqo55S15a2Q5ZWG5Yqh5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 50,
+        "id": "30923b4cbcac3a901bd05e8d85997839e",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "bd05e8d85997839e"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "重庆两江万科投资有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "bd05e8d85997839e",
+        "link_id": "6YeN5bqG5Lik5rGf5LiH56eR5oqV6LWE5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 6.67,
+        "id": "30923b4cbcac3a9016e56d0e68ca8df32",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6e56d0e68ca8df32"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "中小企业发展基金(深圳南山有限合伙)",
+        "label": "3",
+        "labels": [
+          "1",
+          "3"
+        ],
+        "id": "6e56d0e68ca8df32",
+        "link_id": "30409299"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 15,
+        "id": "30923b4cbcac3a9019c9a619feaf83273",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "9c9a619feaf83273"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "天津万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "9c9a619feaf83273",
+        "link_id": "5aSp5rSl5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 60,
+        "id": "30923b4cbcac3a901a20906cd6875bcbd",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "a20906cd6875bcbd"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "无锡万科房地产有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "a20906cd6875bcbd",
+        "link_id": "5peg6ZSh5LiH56eR5oi-5Zyw5Lqn5pyJ6ZmQ5YWs5Y_4"
+      }
+    }
+  ],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [
+    {
+      "edge": {
+        "relation_type": "5",
+        "nexus": [
+          {
+            "money": "75968.96万",
+            "guar_end_date": "2021-04-14 12:04:00"
+          },
+          {
+            "money": "8600万",
+            "guar_end_date": "2021-04-14 12:04:00"
+          }
+        ],
+        "id": "30923b4cbcac3a9056e4f1c6fe0b69219",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "6e4f1c6fe0b69219"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "科修达有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "6e4f1c6fe0b69219",
+        "link_id": "56eR5L_u6L6_5pyJ6ZmQ5YWs5Y_4"
+      }
+    },
+    {
+      "edge": {
+        "relation_type": "5",
+        "nexus": [
+          {
+            "money": "288751万",
+            "guar_end_date": "2020-10-30 12:10:00"
+          },
+          {
+            "money": "434150万",
+            "guar_end_date": "2020-10-30 12:10:00"
+          }
+        ],
+        "id": "30923b4cbcac3a90516df8baa11c3d5e9",
+        "source_id": "30923b4cbcac3a90",
+        "target_id": "16df8baa11c3d5e9"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "利亨有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "16df8baa11c3d5e9",
+        "link_id": "5Yip5Lqo5pyJ6ZmQ5YWs5Y_4"
+      }
+    }
+  ],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "11": [],
+  "12": [],
+  "t1": [
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 2.21,
+        "id": "9ab82af50f21a6d0130923b4cbcac3a90",
+        "source_id": "9ab82af50f21a6d0",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "安邦人寿保险股份有限公司-保守型投资组合",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "9ab82af50f21a6d0",
+        "link_id": "17351006"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 2.34,
+        "id": "96d1cefe547a0570130923b4cbcac3a90",
+        "source_id": "96d1cefe547a0570",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "安邦财产保险股份有限公司-传统保险产品",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "96d1cefe547a0570",
+        "link_id": "17108777"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 3.17,
+        "id": "540608d26d098252130923b4cbcac3a90",
+        "source_id": "540608d26d098252",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "前海人寿:前海海利年年两全保险(万能型)",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "540608d26d098252",
+        "link_id": "17129457"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 1.98,
+        "id": "48cf17769974a6fd130923b4cbcac3a90",
+        "source_id": "48cf17769974a6fd",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "前海人寿保险股份有限公司-聚富产品",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "48cf17769974a6fd",
+        "link_id": "17183524"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 4.14,
+        "id": "33490fc639119681130923b4cbcac3a90",
+        "source_id": "33490fc639119681",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "国信金鹏分级1号集合资产管理计划",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "33490fc639119681",
+        "link_id": "17209877"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 2.04,
+        "id": "25f7601a6156c632130923b4cbcac3a90",
+        "source_id": "25f7601a6156c632",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "西部利得金裕1号资产管理计划",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "25f7601a6156c632",
+        "link_id": "17538252"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 2.98,
+        "id": "d686142140a8ca2d130923b4cbcac3a90",
+        "source_id": "d686142140a8ca2d",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "招商财富-招商银行-德赢1号专项资产管理计划",
+        "label": "3",
+        "labels": [
+          "3"
+        ],
+        "id": "d686142140a8ca2d",
+        "link_id": "17117001"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 8.39,
+        "id": "5b8d09ccfbf05421130923b4cbcac3a90",
+        "source_id": "5b8d09ccfbf05421",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "深圳市钜盛华股份有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "5b8d09ccfbf05421",
+        "link_id": "5rex5Zyz5biC6ZKc55ub5Y2O6IKh5Lu95pyJ6ZmQ5YWs5Y_4"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 29.38,
+        "id": "dfa0097f843edf39130923b4cbcac3a90",
+        "source_id": "dfa0097f843edf39",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": [
+          "F"
+        ],
+        "risk_label": [
+          26,
+          22,
+          21
+        ],
+        "name": "深圳市地铁集团有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "dfa0097f843edf39",
+        "link_id": "211336"
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "1",
+        "nexus": 11.91,
+        "id": "cc4fb95b7151e5c0130923b4cbcac3a90",
+        "source_id": "cc4fb95b7151e5c0",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "香港中央结算(代理人)有限公司",
+        "label": "1",
+        "labels": [
+          "1"
+        ],
+        "id": "cc4fb95b7151e5c0",
+        "link_id": "6aaZ5riv5Lit5aSu57uT566XKOS7o_eQhuS6uinmnInpmZDlhazlj7g."
+      },
+      "status": null
+    }
+  ],
+  "t2": [
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "法定代表人、董事长、首席执行官、董事",
+        "id": "46ff42222e41ef76230923b4cbcac3a90",
+        "source_id": "46ff42222e41ef76",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "郁亮",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "46ff42222e41ef76",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4Jibpg4Hkuq4."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "独立董事",
+        "id": "d7973e938709b7fa230923b4cbcac3a90",
+        "source_id": "d7973e938709b7fa",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "刘姝威",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "d7973e938709b7fa",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JibliJjlp53lqIE."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "独立董事",
+        "id": "03f557bc2e247db1230923b4cbcac3a90",
+        "source_id": "03f557bc2e247db1",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "康典",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "03f557bc2e247db1",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4Jiblurflhbg."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "独立董事",
+        "id": "5c180ebd5a114331230923b4cbcac3a90",
+        "source_id": "5c180ebd5a114331",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "李强",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "5c180ebd5a114331",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JibmnY7lvLo."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "独立董事",
+        "id": "af094a747f75e4cd230923b4cbcac3a90",
+        "source_id": "af094a747f75e4cd",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "吴嘉宁",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "af094a747f75e4cd",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JiblkLTlmInlroE."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "董事",
+        "id": "6af2ba84379fd4b4230923b4cbcac3a90",
+        "source_id": "6af2ba84379fd4b4",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "孙盛典",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "6af2ba84379fd4b4",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JiblrZnnm5vlhbg."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "名誉董事长",
+        "id": "c3a61af5ad2d6136230923b4cbcac3a90",
+        "source_id": "c3a61af5ad2d6136",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "王石",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "c3a61af5ad2d6136",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4Jibnjovnn7M."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "董事",
+        "id": "ff391a5121ad8dad230923b4cbcac3a90",
+        "source_id": "ff391a5121ad8dad",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "陈贤军",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "ff391a5121ad8dad",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JibpmYjotKTlhps."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "副董事长、董事",
+        "id": "06dc76fbe3cc435c230923b4cbcac3a90",
+        "source_id": "06dc76fbe3cc435c",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "林茂德",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "06dc76fbe3cc435c",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JibmnpfojILlvrc."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "董事",
+        "id": "4d5da75207663c82230923b4cbcac3a90",
+        "source_id": "4d5da75207663c82",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "张旭",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "4d5da75207663c82",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JiblvKDml60."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "董事",
+        "id": "46a02f66a15ecf4d230923b4cbcac3a90",
+        "source_id": "46a02f66a15ecf4d",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "肖民",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "46a02f66a15ecf4d",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4JibogpbmsJE."
+      },
+      "status": null
+    },
+    {
+      "edge": {
+        "relation_type": "2",
+        "nexus": "董事",
+        "id": "9c4ffb7fc6d71bf2230923b4cbcac3a90",
+        "source_id": "9c4ffb7fc6d71bf2",
+        "target_id": "30923b4cbcac3a90"
+      },
+      "node": {
+        "company_type": null,
+        "risk_label": null,
+        "name": "王文金",
+        "label": "2",
+        "labels": [
+          "2"
+        ],
+        "id": "9c4ffb7fc6d71bf2",
+        "link_id": "5LiH56eR5LyB5Lia6IKh5Lu95pyJ6ZmQ5YWs5Y_4Jibnjovmlofph5E."
+      },
+      "status": null
+    }
+  ],
+  "t5": [],
+  "t6": []
+}

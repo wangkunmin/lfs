@@ -1,0 +1,90 @@
+<ng-container *ngIf="accountInit; else isInit">
+  <div class="modal-header">
+    <div class="modal-title pull-left">{{ title }}</div>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="cancel()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body accountH">
+
+    <div class="col-lg-12">
+      <ng-container *ngIf="!disFlag">
+        <div class="col-lg-6 mgn-top_10">
+          <input type="radio" name="roleId" [(ngModel)]="user.roleId" value="2050" />
+          普通用户
+        </div>
+        <div class="col-lg-6 mgn-top_10">
+          <input type="radio" name="roleId" [(ngModel)]="user.roleId" value="1" />
+          管理员
+        </div>
+      </ng-container>
+      <div class="col-lg-12 mgn-top_20">
+        用户名
+      </div>
+
+      <div class="col-lg-11" style="padding-right: 0px;">
+        <input class="input-a" type="text" placeholder="请输入用户名" [(ngModel)]="user.accountNm" [disabled]="disFlag" maxlength="20" (change)="checkUserNm2()">
+        <div class="a-line"></div>
+        <div style="height: 30px;">
+          <ng-container *ngIf="message != ''&& message != undefined">
+            <div class="login-error-message">
+              <span class="color-E64">{{ message }}</span>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+      <div class="col-lg-1 padding-left-right_0" *ngIf="pawIsCanUse == 1" style="height: 20px">
+        <i class="fa fa-check-circle"></i>
+      </div>
+
+
+      <div class="col-lg-12 mgn-top_20 text-right">
+        <button class="btn btn-default" type="button" (click)="checkUserNm()">确定</button>
+      </div>
+    </div>
+
+    <!--<form #editForm="ngForm" (ngSubmit)="save()">
+    请输入用户名、以8-20位字母、数字或“_”，字母开头
+      <div class="form-group">
+        <label for="nm">账户名</label>
+        <input type="text" class="form-control" id="nm" name="nm" placeholder="账户名" [(ngModel)]="user.accountNm" [disabled]="disFlag" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="role">角色设置</label>
+        <select id="role" class="form-control" name="roleId" [(ngModel)]="user.roleId">
+          <option value="2050">普通用户</option>
+          <option value="1">管理员</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="pw">密码</label>
+        <input type="password" class="form-control" id="pw" name="pw" placeholder="密码" [(ngModel)]="user.accountPw" autocomplete="off">
+      </div>
+      <div class="text-right fontW-700">
+        <button class="btn btn-default cursor-pointer" type="submit">保存</button>
+      </div>
+    </form>-->
+  </div>
+</ng-container>
+
+<ng-template #isInit>
+  <div class="modal-body accountH">
+
+    <div class="col-lg-12">
+      <div class="col-lg-12 text-center mgn-top_15"><i class="a-icon fa fa-check-circle"></i></div>
+      <div class="col-lg-12 mgn-top_20 text-center color-54698D fontW-700 font-16">
+        {{success}}
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <div class="col-lg-12 text-center">
+      <span id="account">{{clipText}}</span>
+    </div>
+    <div class="col-lg-12 mgn-top_20 text-right">
+      <button class="btn btn-default" type="button" ngxClipboard [cbContent]="clipText" (cbOnSuccess)="clickCopy($event)">复制文本</button>
+    </div>
+  </div>
+</ng-template>
+
+

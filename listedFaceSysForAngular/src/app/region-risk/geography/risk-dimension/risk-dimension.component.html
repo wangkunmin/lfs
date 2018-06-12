@@ -1,0 +1,79 @@
+<div *ngIf="cityNegative.regionName != '深圳市' && selectMapSize ==0" class="in-geo-back">
+  <span class="back-geo-title cursor-pointer" (click)="getInitMapData()">返回</span>
+</div>
+<div class="col-lg-12 padding-left-right_0">
+  <div class="" [ngClass]="{'col-lg-12 height400':selectMapSize == 0,'col-lg-8 padding-right_0 width-740':selectMapSize != 0}">
+    <div class="col-lg-12 padding-left-right_0 geog-chart-div" [ngClass]="{'width-1080':selectMapSize == 0,'width-740':selectMapSize != 0}">
+      <div echarts class="geog-chart sz-background" [options]="options" (chartClick)="clickChart($event);" (click)="anClick($event)"></div>
+    </div>
+  </div>
+  <div *ngIf="selectMapSize!=0" class="col-lg-4 padding-left_0 width-370">
+    <div class="back-geo">
+      <span class="back-geo-title cursor-pointer" (click)="getInitMapData()">返回</span>
+    </div>
+    <div class="col-lg-12 m-scrollbar negative-all-company padding-left-right_0">
+      <div class="negative-company col-lg-12 padding-left-right_0 line-height40 color-fff background-6770E0">
+        <div class="col-lg-7 u-leaveOut cursor-pointer"  title="{{selectCompany.companySnm}} 「{{selectCompany.securityCd}}」"><a (click)="goCompanyInfo(selectCompany.companyId,$event)" class="color-fff">{{selectCompany.companySnm}} 「{{selectCompany.securityCd}}」</a></div>
+        <div class="col-lg-5">风险概览</div>
+      </div>
+      <div class=" col-lg-12 padding-10 padding-left-right_0" *ngIf="companyDistribute.title!=null && companyDistribute.title.length>0">
+        <div class="col-lg-12 color-34495E" >存在{{companyDistribute.title.length}}条风险：</div>
+      </div>
+      <div class=" col-lg-12 padding-left-right_0 line-height40"
+           *ngFor="let item of companyDistribute.title ;let inx = index">
+        <div class="col-lg-12" >
+          <span class="color-34495E" >{{ inx+1 }} &nbsp;&nbsp;</span>
+          <span class="color-34495E" > {{ item.riskContent }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 mgn-top_-44 mgn-bottom_10 all-dis-set" >
+    <div class="col-lg-12 line-height30 fontW-700 ">
+        <span class="font-24 color-546">
+          <img class="vertical-sub atalsImgWH" src="assets/images/region/dingwei.png">
+          <span  *ngIf="cityNegative.regionName != '深圳市'"  class="cursor-pointer">深圳</span>
+           {{cityNegative.regionName == '深圳市'?'深圳':cityNegative.regionName}}
+        </span>
+      <span class="line-height30 padding-right_20 u-date_title">公司分布按注册地统计</span>
+    </div>
+  </div>
+</div>
+<div class="col-lg-12">
+  <div class="row">
+    <div class="col-lg-12 mgn-top_5 sz-geography all-dis-set geography-box-shadow color-A8B8D0">
+      <div class="col-lg-3 sz-background width266 all-dis-set cursor-pointer" [ngClass]="{'active':(selectRiskClass == 1)}" (click)="setSelectRisk(1)">
+        <div class="col-lg-12">
+          <ul>
+            <li class="geography-li-title align-center ">{{cityNegative.riskZhiLiCount}}</li>
+            <li class="geography-li-subtitle align-center color-54698D">治理风险<span class="color-ccc">（件）</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 sz-background width266 geo-mgn-left all-dis-set cursor-pointer" [ngClass]="{'active':(selectRiskClass == 2)}" (click)="setSelectRisk(2)">
+        <div class="col-lg-12">
+          <ul>
+            <li class="geography-li-title align-center ">{{cityNegative.riskXinXiCount}}</li>
+            <li class="geography-li-subtitle align-center color-54698D">信息披露<span class="color-ccc">（件）</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 sz-background width266 geo-mgn-left all-dis-set cursor-pointer" [ngClass]="{'active':(selectRiskClass == 3)}" (click)="setSelectRisk(3)">
+        <div class="col-lg-12">
+          <ul>
+            <li class="geography-li-title align-center ">{{cityNegative.riskCaiWuCount}}</li>
+            <li class="geography-li-subtitle align-center color-54698D">财务会计<span class="color-ccc">（件）</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 sz-background width266 geo-mgn-left all-dis-set cursor-pointer" [ngClass]="{'active':(selectRiskClass == 4)}" (click)="setSelectRisk(4)">
+        <div class="col-lg-12">
+          <ul>
+            <li class="geography-li-title align-center ">{{cityNegative.riskQiTaCount}}</li>
+            <li class="geography-li-subtitle align-center color-54698D">其他<span class="color-ccc">（件）</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

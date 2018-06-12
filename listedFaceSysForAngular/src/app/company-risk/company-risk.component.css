@@ -1,0 +1,234 @@
+.col-lg-m-1, .col-lg-m-2, .col-lg-m-3, .col-lg-m-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .col-lg-m-1, .col-lg-m-2, .col-lg-m-3, .col-lg-m-4 {
+    float: left;
+  }
+  .col-lg-m-1 {
+    width: 5%;
+  }
+  .col-lg-m-2 {
+    width: 16%;
+  }
+  .col-lg-m-3 {
+    width: 31%;
+  }
+  .col-lg-m-4 {
+    width: 32%;
+  }
+}
+.track-padding {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.track-padding2 {
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.track-select {
+  display: inline-block;
+  width: 70px;
+  height: 27px;
+  padding: 3px 12px;
+}
+.track-news {
+  height: 256px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.news-emotion {
+  padding: 2px 7px;
+  margin-left: 10px;
+  color: #FC8671;
+  font-weight: 400;
+}
+.btn-0 {
+  color: #F85F43;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-0.active {
+  background-color: #FFF2F1;
+  border-color: #F85F43;
+}
+.btn-1 {
+  color: #FCC718;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-1.active {
+  background-color: #FEF6D1;
+  border-color: #FCC718;
+}
+.btn-2 {
+  color: #7ABF6D;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-2.active {
+  background-color: #F1FBEF;
+  border-color: #7ABF6D;
+}
+.btn-3 {
+  color: #6681C5;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-3.active {
+  background-color: #E0E6F3;
+  border-color: #6681C5;
+}
+.otherBtn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.group-news-emotion {
+  padding: 2px 7px;
+  color: #FC8671;
+  font-weight: 400;
+}
+.group-news-lable-emotion {
+  padding: 2px 10px;
+  margin-right: 7px;
+  font-weight: 400;
+  color: #54698D;
+  border: 1px solid #9EA7DA;
+  font-size: 12px;
+}
+
+.o-e-t-header-num {
+  font-size: 14px;
+  color: #16325C;
+  letter-spacing: 0;
+}
+.o-e-t-header-num span{
+
+}
+
+.o-e-t-header-all{
+  text-align: right;
+}
+
+.o-e-t-header-all span{
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.o-e-t-header{
+  line-height: 40px;
+  background-color: #F6F7F9;
+}
+.font-color-set{
+  font-size: 14px;
+  color: #FC8671;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.news-title-back {
+  background-color: #F6F7F9;
+}
+
+.sz-news:nth-of-type(odd) {
+  background-color: #fff;
+}
+.sz-news:nth-of-type(even) {
+  background-color: #F6F7F9;
+}
+
+
+.no-data-notice{
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.company-info-heard-div{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background: #6770E0;
+  color: #FFF;
+}
+.sz-com {
+  position: absolute;
+  width: 1080px;
+  height: 80px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.company-info-heard {
+  line-height: 70px;
+  font-size: 24px;
+  border-right: 0;
+}
+.company-info-heard-title{
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.company-info-heard-nm{
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.company-info-heard-nm1{
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-left: 20px;
+}
+.company-info-div {
+  border-left: 0;
+  margin-top: 5px;
+  text-align: right;
+}
+.company-info-focus{
+  margin-left: 20px;
+  padding: 2px 6px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid #cfd8dc;
+}
+.u-more {
+  margin-top: 9px;
+  text-align: right;
+  color: #54698D;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.i-img-opinion{
+  padding: 12px 9px 0 4px;
+  position: absolute;
+  top: 20px;
+  right: 9px;
+  background-image: url("../../assets/images/svg/Shape.svg");
+}
+
+.could-world-chart{
+  height: 160px;
+}

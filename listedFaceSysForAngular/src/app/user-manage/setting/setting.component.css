@@ -1,0 +1,231 @@
+
+
+
+
+.setting-box-header{
+  padding: 20px 30px;
+  background-color: #ffffff;
+}
+.setting-box-header .col-lg-9 >span{
+  padding: 5px 10px;
+}
+.setting-box-header .col-lg-3 span{
+  border-radius: 50%;
+}
+
+.setting-box-body{
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.setting-box-body .box-body-tab{
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+.setting-box-body .box-body-tab .active{
+  color: #2A6CFF;
+  font-size: 15px;
+  background-color: #ffffff;
+}
+
+
+
+.info-setting .fa{
+  color: rgba(126,139,228,0.80);
+  line-height: 37px;
+  font-size: 20px;
+}
+
+
+
+.info-setting .fa-check-circle{
+  color: #8FCE65;
+  line-height: 37px;
+  font-size: 20px;
+  margin-top: 37px;
+  margin-left: 5px;
+}
+
+
+.font-back-8F988D{
+  color: #F7F5F0;
+  background-color: #8F988D;
+}
+
+
+
+
+.user-focus{
+
+}
+.user-focus-tab{
+  background-color: #8c8c8c;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.user-focus-tab .active{
+  background-color: #8c8c8c;
+  color: #2A6CFF;
+  font-size: 15px;
+}
+
+.user-focus .user-focus-search{
+
+}
+
+.user-focus .user-focus-body{
+
+}
+
+.user-focus .user-focus-header{
+
+}
+
+
+.user-focus-button{
+  line-height: 32px;
+  width: 110px;
+  border-radius: 4px;
+  padding: 0;
+  border: 0;
+}
+
+
+.setting-all-header{
+  line-height: 30px;
+  height: 30px;
+  margin-top: 8px;
+}
+
+
+
+/* 个人设置头部*/
+.add-company-header{
+  background: #6770E0;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+
+
+
+.setting-left>.col-lg-12{
+  background: #F6F7F9;
+}
+
+.setting-left .padding-left-right_0{
+  height: 48px;
+  line-height: 48px;
+}
+
+.setting-left .padding-left-right_0 div{
+  font-size: 14px;
+  color: #A8B7C7;
+  letter-spacing: 0;
+}
+
+.setting-left .padding-left-right_0 .active{
+  font-size: 14px;
+  color: #3F51B5;
+  letter-spacing: 0;
+  /* text-align: left;*/
+}
+.setting-right-0{
+  background: #fff;
+  height: 360px;
+}
+
+/* 关注公司*/
+.setting-right-1{
+  background: #fff;
+}
+
+.info-setting{
+  font-size: 14px;
+  color: #54698D;
+  letter-spacing: 0.3px;
+}
+
+/* 显示名*/
+.info-setting .info-setting-show{
+  font-size: 12px;
+  color: #3F51B5;
+  letter-spacing: 0.26px;
+}
+
+
+/* 输入框 */
+
+.info-setting input{
+  padding: 6px 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid #8492B3;
+  border-radius: 0;
+  box-shadow: none;
+}
+.info-setting input:focus{
+  border-bottom: 2px solid #ff9f00;
+}
+
+
+/* 按钮 */
+.setting-button{
+  line-height: 32px;
+  width: 90px;
+  letter-spacing: 10px;
+  padding: 0;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+
+.font-back-FFFFFF{
+  color: #54698D;
+  background: #FFFFFF;
+}
+.font-back-3F51B5{
+  background: #3F51B5;
+  color: #FFFFFF;
+}
+
+
+.setting-button:hover{
+  color: #fcf8e3;
+  background-color: #8c8c8c;
+}
+
+.info-setting-button{
+  text-align: right;
+}
+
+/* 密码显隐*/
+
+.info-setting .fa-eye,
+.info-setting .fa-eye-slash{
+  float: right;
+  margin-top: -33px;
+}
+
+
+
+
+
+.sz-news:nth-of-type(odd) {
+  background-color: #fff;
+}
+.sz-news:nth-of-type(even) {
+  background-color: #F6F7F9;
+}
+
+
+

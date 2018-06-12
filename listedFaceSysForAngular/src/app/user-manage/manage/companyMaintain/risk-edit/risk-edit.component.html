@@ -1,0 +1,82 @@
+<div class="modal-header">
+  <div class="modal-title pull-left">
+    <span *ngIf="useModel == 0">新增</span>
+    <span *ngIf="useModel == 1">编辑</span>
+  </div>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="hideType()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body riskEditBody" [ngClass]="{'height430':(useModel == 0),'height390':(useModel == 1)}">
+  <div [hidden]="useModel != 0" class="col-lg-12 line-height50 position-absolute b-z-index_2 padding-left_30">
+    <div class="form-group position-relative serchListWidth" id="riskEditSearchInput">
+      <input type="text" class="form-control"
+             placeholder="请输入您要查询的公司名称或代码"
+             (keyup)="keyUpFun($event,searchSrc)"
+             (click)="isShowFindData(1)"
+             [(ngModel)]="searchSrc"
+      >
+      <div class="row  search-company-data">
+        <div class="col-lg-12 " [hidden]="selectState == 0">
+          <div class="col-lg-12 padding-left-right_0 padding-5 search-company" *ngFor="let companyInfo of findDataList;" (click)="clickCompany(companyInfo)">
+            <div class="col-lg-12 u-leaveOut">{{companyInfo.companyNm}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 padding-left_0" [ngClass]="{'mgn-top_33':(useModel == 0)}">
+    <div class="col-lg-12 line-height50 ">
+      <div class="col-lg-3 level-title">公司名称：</div>
+      <div class="col-lg-9 level-body">
+        {{ watchDel.companyNm }}
+      </div>
+    </div>
+    <div class="col-lg-12 line-height50">
+      <div class="col-lg-3 level-title">风险类型：</div>
+      <div class="col-lg-9 level-body">
+        <select [(ngModel)]="watchDel.riskType" class="form-control sz-risk mgn-top_15">
+          <option *ngFor="let item of riskTypeList" [value]="item.key">{{item.value}}</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-12 line-height50">
+      <div class="col-lg-3 level-title">风险详情：</div>
+      <div class="col-lg-9 level-body"><textarea class="level-textarea"[(ngModel)]="watchDel.risksDetail"></textarea></div>
+    </div>
+
+    <div class="col-lg-12 line-height50">
+      <div class="col-lg-3 level-title">风险类别：</div>
+      <div class="col-lg-9 level-body">
+        <select [(ngModel)]="watchDel.risksTypes" class="form-control sz-risk mgn-top_15">
+          <option *ngFor="let item of riskLevelList" [value]="item.key">{{item.value}}</option>
+        </select>
+        <!--<textarea class="level-textarea"[(ngModel)]="watchDel.riskTypes"></textarea>-->
+      </div>
+    </div>
+    <div class="col-lg-12" style="height: 30px;">
+      <div class="col-lg-3 level-title"></div>
+      <div class="col-lg-9 level-body " >
+        <ng-container *ngIf="message2 != ''">
+          <div class="login-error-message">
+            <span class="color-E64">{{ message2 }}</span>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <!--<div class="col-lg-12 line-height50">
+      <div class="col-lg-3 level-title">风险指标：</div>
+      <div class="col-lg-9 level-body"><textarea class="level-textarea"[(ngModel)]="watchDel.riskTarget"></textarea></div>
+    </div>-->
+    <div class="col-lg-12 mgn-bottom_20" *ngIf="useModel == 0">
+      <div class="col-lg-12 text-right"><button class="btn btn-default" type="button" (click)="openModal(0,deleteTemplate)">确定</button></div>
+    </div>
+    <div class="col-lg-12 mgn-bottom_20" *ngIf="useModel == 1">
+      <div class="col-lg-6 text-left"><button class="btn btn-default" type="button" (click)="openModal(-1,deleteTemplate)">删除</button></div>
+      <div class="col-lg-6 text-right"><button class="btn btn-default" type="button" (click)="openModal(1,deleteTemplate)">确定</button></div>
+    </div>
+  </div>
+</div>
+<ng-template #deleteTemplate>
+  <app-confirm [message]="message" (confirmType)="confirm($event)"></app-confirm>
+</ng-template>

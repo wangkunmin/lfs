@@ -1,0 +1,51 @@
+<div class="find-company-heard-div">
+  <div class="sz-com">
+    <div class="col-lg-8 find-company-heard" style="height: 45px;" >
+      <span  class="col-lg-12 font-16 u-leaveOut padding-left-right_0" title="{{searchSrc}}">
+        查询关键字：{{searchSrc}}
+      </span>
+    </div>
+    <div class="col-lg-8">
+      <span class="col-lg-3 font-12 padding-left-right_0">
+          <span class="font-16" title="{{searchSrc}}"></span>共有<span class="color-F9AE46">{{(totalItems == null)?0:totalItems}}</span>条记录
+      </span>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="mgn-top_15">
+    <div   >
+      <div class="row sz-news padding-10" *ngFor="let findData of findDataList; let i = index;">
+        <div class="col-lg-3 line-height30 u-leaveOut m-cursor_pointer"
+             (click)="clickCompanyNm($event,findData.companyId)"
+             title="{{ findData.companyNm + '['+(findData.securityCd!=null?findData.securityCd:'') +']'}}">
+          {{ findData.companyNm +'['+(findData.securityCd!=null?findData.securityCd:'') +']' }}</div>
+        <div class="col-lg-3 line-height30 ">
+          <div *ngIf="findData.infoCd != -1" class="float-left">命中<span class="color-FF9F00">{{ findData.warnCount }}条</span>预警指标</div>
+        </div>
+        <div class="col-lg-4 line-height30">
+          <div class="col-lg-12" *ngIf="findData.infoCd != -1">
+            <span  class="find-company-u-focus" *ngFor="let type of findData.content | mapTrans" title="{{getValue(type['value'])}}" >{{type['key']}}</span>
+          </div>
+        </div>
+        <div class="col-lg-2 sz-warning width12">
+          <app-follow [follow]="findData"></app-follow>
+        </div>
+      </div>
+    </div>
+    <div class="m-pagination text-right">
+      <pagination [boundaryLinks]="true"
+                  [maxSize]="7"
+                  [rotate]="false"
+                  [totalItems]="totalItems"
+                  [itemsPerPage]="itemsPerPage"
+                  [(ngModel)]="currentPage"
+                  (pageChanged)="getPageChanged($event)"
+                  previousText="&lsaquo;"
+                  nextText="&rsaquo;"
+                  firstText="&laquo;" lastText="&raquo;">
+      </pagination>
+    </div>
+  </div>
+</div>>
+

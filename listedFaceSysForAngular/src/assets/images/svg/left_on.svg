@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="44px" viewBox="0 0 12 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="-3.55271368e-15 6.3278516 12 -2.34479103e-13 12 44 -3.55271368e-15 37.6721484"></polygon>
+    </defs>
+    <g id="-预见" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0关系图谱-5" transform="translate(-44.000000, -129.000000)">
+            <g id="Group-2-Copy-17" transform="translate(44.000000, 129.000000)">
+                <g id="Rectangle-7-Copy-3" transform="translate(6.000000, 22.000000) rotate(-180.000000) translate(-6.000000, -22.000000) ">
+                    <use fill="#E0E0E0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#E4E4E4" stroke-width="1" d="M0.5,6.62944934 L11.5,0.828918699 L11.5,43.1710813 L0.5,37.3705507 L0.5,6.62944934 Z"></path>
+                </g>
+                <polygon id="Triangle-Copy" fill="#9B9B9B" points="9 23 3 26 3 20"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

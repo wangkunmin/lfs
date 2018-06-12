@@ -1,0 +1,48 @@
+<div *ngIf="newsTrack" class="">
+  <div class="row">
+    <div class="col-lg-12">
+      <div *ngFor="let new of newsTrack"   class="col-lg-12 track-padding sz-news all-dis-set" >
+        <div class="col-lg-4 line-height24 mgn-bottom_3 padding-left_0 font-PingFang-M">
+          <div class="col-lg-12 line-height30 padding-left_0 line-height30 u-leaveOut fontW-700" (click)="newsDetail(new)" title="{{ new.noticeTitle }}">{{ new.noticeTitle }}</div>
+        </div>
+        <div class="col-lg-4">
+          <span class="float-left line-height30 " *ngIf="new.type!=''">
+            <span class="u-company u-leaveOut"
+                  data-toggle="tooltip"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="{{ new.type }}">
+              {{ new.type }}
+            </span>
+          </span>
+          <span class="float-left line-height30 " *ngIf="new.typeSecond!=''">
+            <span class="u-company u-leaveOut"
+                  data-toggle="tooltip"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="{{ new.typeSecond }}">
+              {{ new.typeSecond }}
+            </span>
+          </span>
+          <span class="float-left line-height30 " *ngIf="new.typeThree!=''">
+            <span class="u-company u-leaveOut"
+                  data-toggle="tooltip"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="{{ new.typeThree }}">
+              {{ new.typeThree }}
+            </span>
+          </span>
+
+        </div>
+        <div class="col-lg-2 align-right line-height30 u-leaveOut padding-left_0 color-546"
+             data-toggle="tooltip"
+             data-trigger="hover"
+             data-placement="top"
+             title="{{ new.srcType }}">来源：{{ new.srcType }}
+        </div>
+        <div class="col-lg-2 align-right u-leaveOut line-height30 padding-right_0 color-546">{{ new.noticeDt | lfsDatePipe: "yyyy-MM-dd HH:mm" }}</div>
+    </div>
+    </div>
+  </div>
+</div>

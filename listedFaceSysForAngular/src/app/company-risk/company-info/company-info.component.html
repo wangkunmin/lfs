@@ -1,0 +1,103 @@
+<div class="row mgn-bottom_20">
+  <div class="col-lg-12 m-headLine">
+    企业信息
+  </div>
+  <div class="col-lg-12 all-dis-set">
+    <div  class="col-lg-8 h-info padding-left_0 padding-right_5 width-720">
+      <div class="company-info-tab">
+        <div class="col-lg-12 padding-left_0 b-border_bottom">
+          <ul>
+            <li *ngFor="let t of companyInfoList;" [ngClass]="{'active':(t.type==selectType)}" (click)="getSelectType(t.type)">{{t.value}}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="b-border_top">
+        <div *ngIf ="selectType == 1" class="col-lg-12 padding-left-right_0 company-info-body sz-background m-scrollbar all-dis-set">
+          <div class="col-lg-4 padding-left-right_0 align-left b-border_bottomN body-div-title color-657899">
+            <div> 成立日期（工商注册）： </div>
+            <div> 注册资本： </div>
+            <div> 企业性质： </div>
+            <div> 所属行业： </div>
+            <div> 法定代表人： </div>
+            <div> 实际控制人： </div>
+            <div> 员工总数： </div>
+            <div> 注册地址： </div>
+            <div> 联系电话： </div>
+            <div> 公司网址： </div>
+            <div> 主营产品： </div>
+            <div class="b-border_bottomN"> 经营范围： </div>
+          </div>
+          <div class="col-lg-8 padding-right_0 body-div-p">
+            <div class="align-left">
+              <!-- 成立日期（工商注册）： -->
+              <div *ngIf="!companyInfo.foundDt" class="color-54698D font-12">&#45;&#45;</div>
+              <div *ngIf="companyInfo.foundDt" class="color-54698D font-12">{{companyInfo.foundDt}}</div>
+              <!-- 注册资本：-->
+              <div *ngIf="!companyInfo.regCapital" class="color-16325C font-12">&#45;&#45;</div>
+              <div *ngIf="companyInfo.regCapital" class="color-16325C font-12">{{companyInfo.regCapital}}万元</div>
+              <!-- 企业性质-->
+              <div class="color-16325C font-12">{{companyInfo.orgFormNm || '&#45;&#45;'}}</div>
+              <!-- 所属行业-->
+              <div class="color-16325C font-12">{{companyInfo.industry || '&#45;&#45;'}}</div>
+              <!-- 法定代表人-->
+              <div *ngIf="!companyInfo.legRepresent" class="color-16325C font-12">&#45;&#45;</div>
+              <div *ngIf="companyInfo.legRepresent" class="color-16325C font-12">{{companyInfo.legRepresent}}</div>
+              <!-- 实际控制人-->
+              <div *ngIf="!companyInfo.sharehdName" class="color-16325C font-12">&#45;&#45;</div>
+              <div *ngIf="companyInfo.sharehdName" class="color-16325C font-12">{{companyInfo.sharehdName}}</div>
+              <!-- 员工总数-->
+              <div *ngIf="!companyInfo.employNum" class="color-16325C font-12">&#45;&#45;</div>
+              <div *ngIf="companyInfo.employNum" class="color-16325C font-12">{{companyInfo.employNum }}人</div>
+              <!-- 注册地址 -->
+              <div class="color-16325C font-12 u-leaveOut" title="{{companyInfo.regAddr || '&#45;&#45;'}}">{{companyInfo.regAddr || '&#45;&#45;'}}</div>
+              <!-- 联系电话-->
+              <div class="color-16325C font-12">{{companyInfo.companyPh || '&#45;&#45;'}}</div>
+              <!-- 公司网址 -->
+              <div class="color-16325C font-12">{{companyInfo.companyWeb}}</div>
+              <!-- 主营产品 -->
+              <div><p class="u-leaveOut color-16325C font-12" title="{{companyInfo.mainBusin}}">{{companyInfo.mainBusin}}</p></div>
+              <!-- 经营范围-->
+              <div class="b-border_bottomN color-16325C font-12"><p class="u-leaveOut" title="{{companyInfo.businScope}}">{{companyInfo.businScope}}</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="selectType == 2" class="col-lg-12 padding-left-right_0 controller-table">
+          <div class="one-table-header b-border_bottom m-scrollbar">
+            <table class="table table-bordered table-hover table-striped mgn-bottom_0">
+              <thead>
+              <tr>
+                <th>职位</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>国籍</th>
+                <th>学历</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let info of controllerInfos" title="{{info.resume}}">
+                <td>{{info.pstnNm}}</td>
+                <td>{{info.personNm}}</td>
+                <td>{{info.age}}</td>
+                <td>{{info.sex}}</td>
+                <td>{{info.countryCdNM}}</td>
+                <td>{{info.highestDegree}}</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 企业关系关联图-->
+    <div class="col-lg-4 padding-left-right_0 width-360" id="viewEnterpriseAssociation">
+      <div class="row mgn-row h-chart">
+        <app-company-chart [companyName]="companyInfo.companyNm"></app-company-chart>
+      </div>
+      <div class="row mgn-row chart-title" (click)="openCompanyChart()">
+        查看企业关联关系
+      </div>
+    </div>
+  </div>
+</div>

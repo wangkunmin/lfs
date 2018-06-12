@@ -1,0 +1,125 @@
+<div class="modal-header">
+  <span class="modal-title pull-left color-fff">详细财务报表（{{ companyName }}）</span>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="cancel()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body padding-0">
+  <div class="container-fluid f-report">
+    <div class="row fr-height">
+      <div class="col-lg-6">
+        <span class="pull-left mgn-right_15">报告期</span>
+        <ul>
+          <li class="pull-left" *ngFor="let item of searchCode['rptTimetypeCd']; let i = index">
+            <span class="fr-title" [ngClass]="{'s-active': item.flag}" (click)="search(0, i)">{{ item.type }}</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-5">
+        <span class="pull-left mgn-right_15">时间范围</span>
+        <ul>
+          <li class="pull-left" *ngFor="let item of searchCode['rptDt']; let i = index">
+            <span class="fr-title" [ngClass]="{'s-active': item.flag}" (click)="search(1, i)">{{ item.type }}</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-1 padding-0">
+        <span class="btn-xz" (click)="exportData()">&#8595;下载</span>
+      </div>
+    </div>
+    <div class="row">
+      <tabset>
+        <tab *ngFor="let tab of tabs['heading']; let iTab = index"
+             [heading]="tab" [customClass]="tabs['customClass']" (select)="tabSearch(tabs['id'][iTab])">
+          <!-- 左边 -->
+          <div class="report-col-1">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="finance-icon report-trHeight right-border">
+                  <div class="report-icon cursor-pointer" [ngClass]="{'report-pop': attrFlag,'report-push': !attrFlag}"
+                       (click)="showChildren(0)"></div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div #leftColumn class="leftColumn">
+                  <div class="row" *ngFor="let list of rowData; let i = index">
+                    <div class="col-lg-12 finance-icon">
+                      <div class="report-lHeight right-border">
+                        <ng-container *ngIf="list['isLabel'] === 1">
+                          <div class="report-icon cursor-pointer" [ngClass]="{'report-pop': list['showChildren'], 'report-push': !list['showChildren']}"
+                               (click)="showChildren(i)"></div>
+                        </ng-container>
+                      </div>
+                    </div>
+                    <ng-container *ngIf="list['showChildren'] && list['children'].length > 0">
+                      <div class="col-lg-12" *ngFor="let item of list['children']">
+                        <div class="row">
+                          <div class="col-lg-12 finance-icon">
+                            <div class="report-lHeight right-border"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </ng-container>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 右边 -->
+          <div class="report-col-11 report">
+            <div #topScroll [ngStyle]="{'width': width+1+'px','min-width': '961px'}"
+                 class="row mgn-row report-trHeight topScroll fr-background">
+              <div class="report-col" *ngFor="let column of columnDefs">
+                <div class="u-leaveOut fontW-700 text-center right-border" [ngStyle]="{'width': column.width+'px'}">
+                  <span class="fr-p5">{{ column['headerName'] }}</span>
+                </div>
+              </div>
+            </div>
+            <div #rightColumn class="rightColumn" (scroll)="onScroll($event, iTab)">
+                <div [ngStyle]="{'width': width+'px'}">
+                  <div *ngFor="let list of rowData">
+                    <div #row class="row mgn-row report-rHeight">
+                      <div class="report-col" *ngFor="let column of columnDefs; let j = index">
+                        <div class="fr-bor" [ngStyle]="{'width': column.width+'px'}" [ngClass]="{'text-right': column['field'] !== 'subjectNm'}">
+                          <div class="u-leaveOut" [ngClass]="{'width-icon': j === 0}">
+                            <span class="fr-p5">
+                              {{ list[column['field']] }}
+                            </span>
+                          </div>
+                          <ng-container *ngIf="j === 0 &&
+                            (list['subjectLevel'] === 2 ||
+                            (list['subjectLevel'] === 1 && list['isLabel'] === 0 && list['isBold'] === 1))">
+                            <i (click)="openFinancialChart(chartTemplate, list)" class="glyphicon glyphicon-stats pull-right"></i>
+                          </ng-container>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 子节点 -->
+                    <ng-container *ngIf="list['showChildren'] && list['children'].length > 0">
+                      <div #row class="row mgn-row report-rHeight" *ngFor="let item of list['children']">
+                        <div class="report-col" *ngFor="let column of columnDefs; let j = index">
+                          <div class="fr-bor" [ngStyle]="{'width': column.width+'px'}" [ngClass]="{'text-right': column['field'] !== 'subjectNm'}">
+                            <div class="u-leaveOut" [ngClass]="{'width-icon': j === 0}">
+                              <span class="fr-p5">
+                                {{ item[column['field']] }}
+                              </span>
+                            </div>
+                            <ng-container *ngIf="j === 0">
+                              <i (click)="openFinancialChart(chartTemplate, item)" class="glyphicon glyphicon-stats pull-right"></i>
+                            </ng-container>
+                          </div>
+                        </div>
+                      </div>
+                    </ng-container>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </tab>
+      </tabset>
+    </div>
+  </div>
+</div>
+<ng-template #chartTemplate>
+  <app-financial-chart [columnDefs]="columnDefs" [chartData]="chartData" (financeChartType)="closeFinanceChart($event)"></app-financial-chart>
+</ng-template>

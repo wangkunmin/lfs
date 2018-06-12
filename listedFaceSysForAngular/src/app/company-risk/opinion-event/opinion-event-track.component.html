@@ -1,0 +1,74 @@
+<div class="row mgn-bottom_70">
+    <div class="col-lg-7 m-headLine">
+      新闻舆情
+    </div>
+    <div class="col-lg-12">
+      <div class="col-lg-12 news-title-back padding-left_0 padding-10">
+        <div class="col-lg-10">
+          <app-datepicker (dateType)="changeDate($event)"></app-datepicker>
+        </div>
+
+        <div class="col-lg-2 padding-0" *ngIf="newsTrack !=null && newsTrack.length>0">
+          <div class="u-more" (click)="moreTracks()">查看更多</div>
+        </div>
+      </div>
+    </div>
+   <!-- <div class="col-lg-5">
+      <div class="col-lg-5  font-16 align-right ">关键字  </div>
+      <div class="col-lg-7 padding-left-right_0 padding-top-7">
+        <input placeholder="请从词云中的词或输入关键字"
+               type="text"
+               class="form-control"
+               [(ngModel)]="keyword"
+               (change)="changeInput()"
+        >
+        <i *ngIf = "keyword!=''" class="i-img-opinion" (click)="keyword = ''"></i>
+      </div>
+    </div>-->
+
+ <!-- <div class="col-lg-12 ">
+    <div  class="col-lg-12 sz-background">
+      <div class="">
+        更新时间：{{upDateTime}}
+      </div>
+      <div #opinionEventEcharts echarts class="could-world-chart" [options]="options" (chartClick)="getClickChart($event)"></div>
+    </div>
+  </div>-->
+<!--
+  <div class="col-lg-12">
+    <div class="news-title-back sz-background">
+      <div class="o-e-t-header padding-left-right_0 all-dis-set">
+        <div class="col-lg-10 padding-left_20 width-900">
+          <div class="o-e-t-header-num">
+           <span>
+            共计<span class="font-color-set">{{countNnm}}</span>条记录
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-2 padding-right_20 width-180">
+          <div class="o-e-t-header-all" (click)="moreTracks()">
+            <span class="u-more">
+              查看全部
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+
+
+  <div class="col-lg-12 ">
+    <div class="col-lg-12 sz-background">
+      <ng-container *ngIf="newsTrack; else isNotNewsTrack">
+        <app-opinion-event-item [newsTrack]="newsTrack"></app-opinion-event-item>
+      </ng-container>
+      <ng-template #isNotNewsTrack>
+        <div class="mgn-top_15 mgn-bottom_240 ">
+          该时间段暂无新闻舆情
+        </div>
+      </ng-template>
+    </div>
+  </div>
+
+</div>

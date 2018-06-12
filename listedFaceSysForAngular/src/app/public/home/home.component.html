@@ -1,0 +1,59 @@
+<div class="h-u-enter" *ngIf="uSLFlag">
+  <div class="h-u-border">
+    <div class="u-border-left-top"></div>
+    <div class="u-border-right-top"></div>
+    <div class="u-border-left-bottom"></div>
+    <div class="u-border-right-bottom"></div>
+  </div>
+  <div class="h-u-body">
+    <ul (click)="showSign()">
+      <li>登录</li>
+      <li>注册</li>
+    </ul>
+  </div>
+</div>
+
+<div #imgList class="virtual-body" (window:resize)="setImgWH()">
+  <div #imgBody class="img-body" (click)="uSLFlag = true" >
+    <img #img src="assets/images/homePage/home.png" >
+  </div>
+  <div class="login-reg-enter" [hidden]="this.uSLFlag" >
+    <div class="login-reg-enter-padding" >
+      <div class="login-reg-border">
+        <div class="login-reg-border-left-top"></div>
+        <div class="login-reg-border-right-top"></div>
+        <div class="login-reg-border-left-bottom"></div>
+        <div class="login-reg-border-right-bottom"></div>
+      </div>
+      <div class="login-reg-body">
+        <div class="row link-a-active">
+          <span class="col-lg-3"></span>
+          <a class="col-lg-3" [routerLink]="['login']" routerLinkActive="active">登录</a>
+          <a class="col-lg-3" [routerLink]="['register']" routerLinkActive="active">注册</a>
+          <span class="col-lg-3"></span>
+        </div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--
+<div class="virtual-body">
+  <ul class="u-swipe" [ngClass]="uSwipe">
+    <li class="f-sign">
+      <div class="container-fluid">
+        <div class="row">
+          <a class="col-lg-4" [routerLink]="['login']" routerLinkActive="active">登录</a>
+          <a class="col-lg-8" [routerLink]="['register']" routerLinkActive="active">注册</a>
+        </div>
+
+      </div>
+    </li>
+    <li class="u-swipeContent" [ngClass]="uSwipeContent">
+      <img src="../../../assets/images/homePage/page-1-首页&#45;&#45;2.png">
+    </li>
+  </ul>
+</div>
+-->

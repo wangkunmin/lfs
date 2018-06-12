@@ -1,0 +1,28 @@
+<div class="m-menu" [ngStyle]="getWidth" (window:resize)="onResize($event)">
+  <ul class="sz-menu">
+    <li routerLinkActive="active" [routerLink]="['region']" (click)="onClickMenu()" (mouseout)="out()" (mouseover)="over()" [ngClass]="{'sz-menu-w': wMenu}">
+      <span class="region" >
+        <i class="i-img-region"></i>
+        <span *ngIf="menu">风险总览</span></span>
+      <!--<div>区域风险总览</div>-->
+    </li>
+    <li routerLinkActive="active" [routerLink]="['group']" (click)="onClickMenu()" (mouseout)="out()" (mouseover)="over()" [ngClass]="{'sz-menu-w': wMenu}">
+      <span class="group">
+        <i class="i-img-group"></i>
+        <span *ngIf="menu">重点关注</span>
+      </span>
+      <!--<div>分组风险概览</div>-->
+    </li>
+    <!--<li routerLinkActive="active" [routerLink]="['company']">
+      <div>上市公司风险展台</div>
+    </li>-->
+    <li routerLinkActive="active" [routerLink]="['atlas']" (click)="onClickMenu()" (mouseout)="out()" (mouseover)="over()" [ngClass]="{'sz-menu-w': wMenu}">
+      <span class="area">
+        <i class="i-img-atlas"></i>
+        <span *ngIf="menu">关联图谱</span></span>
+      <!--<div>关联图谱</div>-->
+    </li>
+  </ul>
+
+  <router-outlet ></router-outlet>
+</div>

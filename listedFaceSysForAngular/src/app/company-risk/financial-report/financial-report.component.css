@@ -1,0 +1,135 @@
+.report {
+  height: 500px;
+  overflow: hidden;
+}
+.report-tlHeight {
+  height: 30px;
+  line-height: 30px;
+}
+.report-trHeight {
+  height: 31px;
+  line-height: 31px;
+}
+.report-lHeight {
+  height: 33px;
+  line-height: 33px;
+}
+.report-rHeight {
+  height: 34px;
+  line-height: 34px;
+}
+.report-col, .report-col-1, .report-col-11 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+.report-col-1 {
+  width: 39px;
+}
+.report-col-11 {
+  width: calc(100% - 39px);
+}
+.rightColumn {
+  height: 470px;
+  overflow-x: scroll;
+  overflow-y: auto;
+}
+.leftColumn {
+  height: 453px;
+  overflow: hidden;
+}
+.topScroll {
+  overflow: hidden;
+}
+.fr-background {
+  border-bottom: 1px solid #d4d4d4;
+  border-right: 1px solid #aeaeae;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(1, #fff));
+}
+.finance-icon {
+  background-color: #f0f0ee;
+  border-bottom: 1px solid #d4d4d4;
+}
+.right-border {
+  border-right: 1px solid #aeaeae;
+}
+.report-icon {
+  text-align: center;
+}
+.report-icon:before {
+  font-weight: 700;
+  color: #fff;
+  background-color: #666;
+  border-radius: 2px;
+}
+.report-pop:before {
+  content: "-";
+  padding: 0 5px 0 4px;
+  font-size: 12px;
+}
+.report-push:before {
+  content: "+";
+  padding: 0 3px;
+  font-size: 10px;
+  -webkit-transform: scale(0.6);
+}
+.fr-p5 {
+  padding: 5px;
+}
+.fr-row-odd {
+  background-color: #fdfdfd;
+}
+.fr-row-even {
+  background-color: #f3f3f3;
+}
+.fr-bor {
+  height: 33px;
+  border-right: 1px solid #d4d4d4;
+}
+.fr-bor i {
+  margin-right: 5px;
+  line-height: 33px;
+  cursor: pointer;
+}
+.even-fr .fr-bor {
+  background-color: #fdfdfd;
+}
+.odd-fr .fr-bor {
+  background-color: #f3f3f3;
+}
+.fr-height {
+  height: 42px;
+  line-height: 42px;
+}
+.fr-height li {
+  margin-right: 3px;
+}
+.fr-title {
+  cursor: pointer;
+  padding: 0 8px;
+  border: 1px solid transparent;
+}
+.s-active {
+  background-color: rgba(98, 141, 205, .15);
+  color: #628dcd;
+  border: 1px solid #628dcd;
+}
+.btn-xz {
+  padding: 7px 15px;
+  cursor: pointer;
+  background: #70C1A4;
+  border-radius: 20px;
+  color: #fff;
+}
+.width-icon {
+  float: left;
+  width: 230px;
+}
+.modal-lg-report .modal-content {
+  border-radius: 0;
+}
+
+.chartsFinancial{
+  width: 568px;
+  overflow-x: auto;
+}

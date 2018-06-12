@@ -1,0 +1,40 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">添加公司</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="cancel()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body add-company-HeightModal overflow-y">
+  <div class="col-lg-12 ">
+    <input type="text" class="form-control-0" id="form-control-0"
+           placeholder="请输入企业名称、证券简称或上市代码"
+           (keyup)="keyUpFun($event,searchSrc)"
+           (click)="isShowFindData(1)"
+           [(ngModel)]="searchSrc"
+    >
+    <span *ngIf="searchSrc.trim() != ''" class="del-span-0" (click)="delClick()">X</span>
+  </div>
+  <div class="col-lg-12 b-z-index_2">
+    <div class="row  search-company-data">
+      <div class="col-lg-12 " [hidden]="selectState == 0 || findDataList?.length == 0">
+        <div class="col-lg-12 padding-left-right_0 b-border height250-y m-scrollbar ">
+          <div class="align-center col-lg-12 padding-left-right_0 padding-5 sz-news font-12 cursor-pointer" *ngFor="let companyInfo of findDataList;" (click)="clickCompany(companyInfo)">
+            <div class="col-lg-4 u-leaveOut" title="{{companyInfo.companySnm}} [{{companyInfo.securityCd}}]">{{companyInfo.companySnm}} [{{companyInfo.securityCd}}]</div>
+            <div class="col-lg-8 u-leaveOut" title="{{companyInfo.companyNm}}">{{companyInfo.companyNm}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 select-company-list b-border" *ngIf="addCompanyList.length>0">
+    <div class="u-select-input-company-div u-leaveOut u-select-company m-scrollbar" *ngFor="let selectCompany of addCompanyList">
+      <div class="row mgn-row cursor-pointer" title="{{selectCompany.companyNm}}">
+        <div class="col-lg-10 u-leaveOut">{{selectCompany.companyNm}}</div>
+        <div class="col-lg-2 del-span" (click)="delCompany(selectCompany)">X</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary" (click)="confirm()">确定</button>
+</div>

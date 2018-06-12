@@ -1,0 +1,34 @@
+<accordion class="m-accordion mgn-top_20 " [closeOthers]="true">
+  <accordion-group #group *ngFor="let followTop of followTopList; let i = index;">
+    <div accordion-heading>
+      <div class="row m-accordion-head all-dis-set">
+        <div class="col-lg-m-1 line-height30 fontW-700 font-16">{{ i+num }}</div>
+        <div class="col-lg-m-2 line-height30 u-leaveOut"
+             (click)="clickCompanyNm($event,followTop.companyId)"
+             title="{{ followTop.companyNm + ' ['+followTop.securityCd +']'}}">
+          {{ followTop.companyNm + '    ['+followTop.securityCd +']'}}</div>
+        <div class="col-lg-m-3 line-height30 padding-left_0">
+          <div class="float-left padding-left">上榜理由：命中<span class="color-E64">{{ followTop.warnCount }}条</span>预警指标</div>
+          <div class="float-left mgn-top_14 mgn-left_15 m-arrow_down"></div>
+        </div>
+        <div class="col-lg-m-3 line-height30">
+          <div class="col-lg-m-12" >
+            <span class="follow-u-focus" *ngFor="let type of followTop.content | mapTrans" title="{{getValue(type['value'])}}" >{{type['key']}}</span>
+          </div>
+        </div>
+        <div class="col-lg-m-2 sz-warning width12">
+          <app-follow [follow]="followTop" [nonFleshbtn] = "true" (followType)="followTypeClick($event)"></app-follow>
+        </div>
+      </div>
+    </div>
+    <div *ngFor="let type of followTop.typeMap | mapTrans" class="u-list">
+      <p class="fontW-700 font-16">{{ type['key'] }}</p>
+      <ul>
+        <li *ngFor="let item of type['value']" class="line-height30">
+          <div class="u-circular"></div>
+          {{ item }}
+        </li>
+      </ul>
+    </div>
+  </accordion-group>
+</accordion>

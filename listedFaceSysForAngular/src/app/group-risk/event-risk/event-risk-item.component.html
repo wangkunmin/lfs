@@ -1,0 +1,51 @@
+<div *ngIf="newsTrack">
+  <div  class="row">
+    <div class="col-lg-12">
+      <div *ngFor="let new of newsTrack" class="col-lg-12 track-padding sz-news" (click)="newsDetail(new)">
+        <div class="col-lg-12 line-height24 mgn-bottom_3 all-dis-set">
+          <div class="col-lg-3 line-height30 padding-left_0 color-163 fontW-700"
+               (click)="clickCompanyNm($event,new.companyId)"
+          >{{ new.companySnm }}[{{ new.securityCd }}]</div>
+          <div class="col-lg-2 line-height30 padding-left_0">
+            <a class="u-a-color999-under" [hidden]="rpflag"
+               (click)="clickAllNotice($event,new.companyId)"
+            >更多公告</a>
+          </div>
+          <div class="col-lg-5 line-height30 padding-left_0 line-height30 u-leaveOut color-163 fontW-700 width-425"
+               title="{{ new.noticeTitle }}"
+          >{{ new.noticeTitle }}</div>
+          <div class="col-lg-2 align-right u-leaveOut line-height30 padding-right_0 color-546">{{ new.noticeDt | lfsDatePipe: "yyyy-MM-dd HH:mm" }}</div>
+        </div>
+        <div class="col-lg-12 padding-left-right_0 all-dis-set">
+          <div class="col-lg-5 line-height30 u-leaveOut color-546"
+               data-toggle="tooltip"
+               data-trigger="hover"
+               data-placement="top"
+               title="{{ new.companyNm }}"
+               (click)="clickCompanyNm($event,new.companyId)">
+            {{ new.companyNm }}
+          </div>
+          <div class="col-lg-5 padding-left_0 ">
+            <span class="float-left line-height30 color-3F51B5">分类：</span>
+            <span class="float-left line-height30 padding-left_30">
+          <div class="u-company u-leaveOut event-risk-fl"
+                data-toggle="tooltip"
+                data-trigger="hover"
+                data-placement="top"
+                title="{{ new.type }}">
+            {{ new.type }}
+          </div>
+        </span>
+
+          </div>
+          <div class="col-lg-2 align-right line-height30 u-leaveOut padding-left_0 color-546 "
+               data-toggle="tooltip"
+               data-trigger="hover"
+               data-placement="top"
+               title="{{ new.srcType }}">来源：{{ new.srcType }}</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

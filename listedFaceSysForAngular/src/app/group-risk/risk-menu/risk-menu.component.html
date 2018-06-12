@@ -1,0 +1,58 @@
+<div class="m-modal-div"  [ngStyle]="{'display':(flag.followFlag?'none':'block')}">
+</div>
+<div class="u-nav-group b-z-index_99"  [hidden]="flag.followFlag" [ngStyle]="{'right': flag.rightFlag ? '15px':'0'}"  >
+  <div class="row">
+    <div class="close-modal">
+      <div class="close-modal-body" (click)="close()"></div>
+    </div>
+    <div class="col-lg-12">
+      <div class="followHeader">
+        <!--<button type="button" class="close pull-left" aria-label="Close" >
+          <span aria-hidden="true"><img class="img-eye" src="assets/images/svg/eye/risk-fa-eye.svg"></span>
+        </button>-->
+        <span class="float-left"><img class="img-eye" src="assets/images/svg/eye/risk-fa-eye.svg"></span>
+        <div class="float-left line-height26 mgn-right_25 mgn-left_15">重点关注公司</div>
+        <div class="u-add float-left background-fff cursor-pointer" (click)="openModal(addFollowCompanyTemplate)">添加公司</div>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <div class="followItem m-scrollbar" (window:resize)="onResize($event)" [ngStyle]="getHeight">
+        <div *ngIf="userFollow == undefined || userFollow == null  || userFollow.length == 0" class="col-lg-12">
+          <span style="margin-left: 55px;">请添加重点关注公司！</span></div>
+        <div class="u-item-padding" *ngFor="let item of userFollow; let i = index;">
+          <div class="col-lg-12 line-height24 mgn-bottom_3">
+            <div class="col-lg-8 line-height30 padding-left_0 color-163">
+              <div class="pading-left-right fontW-700 u-leaveOut font-size14 width-180 cursor-pointer"
+                   title="{{ item.companySnm }}[{{ item.securityCode }}]"
+                   (click)="clickCompanyNm($event,item.companyId)"
+              >{{ item.companySnm }}[{{ item.securityCode }}]</div>
+              <div class="pading-left-right line-height24 mgn-bottom_3">
+                <div class="float-left width-180 line-height15 u-leaveOut font-size12"
+                     data-toggle="tooltip"
+                     data-trigger="hover"
+                     data-placement="top"
+                     title="{{ item.companyNm }}">
+                  {{ item.companyNm }}
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <app-follow class="float-left margin-top10" [follow]="item" [nonFleshbtn] = "true" (followType)="cancelFollow($event, i, item.companyId)"></app-follow>
+            </div>
+          </div>
+
+          <!--<strong class="float-left width-30 font-16 line-height30 u-leaveOut"
+                  data-toggle="tooltip"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="{{ i+1 }}">{{ i+1 }}</strong>-->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-template #addFollowCompanyTemplate>
+  <app-add-follow-company [userId]="userId" (addType)="addFollow($event)"></app-add-follow-company>
+</ng-template>
+

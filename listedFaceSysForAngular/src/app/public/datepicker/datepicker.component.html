@@ -1,0 +1,19 @@
+<div class="sz-date mgn-right_10">
+  <input placeholder="开始时间"
+         type="text"
+         class="form-control"
+         [(ngModel)]="startDate"
+         (change)="keyUpFun($event,startDate,1)"
+         bsDatepicker
+         [bsConfig]="{ dateInputFormat: 'YYYY/MM/DD', containerClass: 'theme-default' }">
+</div>
+<div class="line"></div>
+<div class="sz-date">
+  <input placeholder="结束时间"
+         type="text"
+         class="form-control"
+         [(ngModel)]="endDate"
+         (change)="keyUpFun($event,endDate,2)"
+         bsDatepicker
+         [bsConfig]="{ dateInputFormat: 'YYYY/MM/DD', containerClass: 'theme-default' }">
+</div>

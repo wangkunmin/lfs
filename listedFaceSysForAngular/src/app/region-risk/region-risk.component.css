@@ -1,0 +1,116 @@
+.col-lg-m-1, .col-lg-m-2, .col-lg-m-3, .col-lg-m-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .col-lg-m-1, .col-lg-m-2, .col-lg-m-3, .col-lg-m-4 {
+    float: left;
+  }
+  .col-lg-m-1 {
+    width: 5%;
+  }
+  .col-lg-m-2 {
+    width: 16%;
+  }
+  .col-lg-m-3 {
+    width: 31%;
+  }
+  .col-lg-m-4 {
+    width: 32%;
+  }
+}
+.track-padding {
+  padding-top: 11px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.track-select {
+  display: inline-block;
+  width: 70px;
+  height: 27px;
+  padding: 3px 12px;
+}
+.track-news {
+  height: 256px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.news-emotion {
+  padding: 2px 7px;
+  margin-left: 10px;
+  color: #FC8671;
+  font-weight: 400;
+}
+.btn-0 {
+  color: #F85F43;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-0.active {
+  background-color: #FFF2F1;
+  border-color: #F85F43;
+}
+.btn-1 {
+  color: #FCC718;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-1.active {
+  background-color: #FEF6D1;
+  border-color: #FCC718;
+}
+.btn-2 {
+  color: #7ABF6D;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-2.active {
+  background-color: #F1FBEF;
+  border-color: #7ABF6D;
+}
+.btn-3 {
+  color: #6681C5;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-3.active {
+  background-color: #E0E6F3;
+  border-color: #6681C5;
+}
+.otherBtn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.width1080 {
+  width: 1080px;
+}
+.sz-news:nth-of-type(odd) {
+  background-color: #fff;
+}
+.sz-news:nth-of-type(even) {
+  background-color: #F6F7F9;
+}
+.news-title-back {
+  background-color: #F6F7F9;
+}
+.news-height {
+  height: 320px;
+}

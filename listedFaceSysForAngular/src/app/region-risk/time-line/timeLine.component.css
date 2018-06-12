@@ -1,0 +1,83 @@
+.m-timeLine{
+  width: 95%;
+}
+.m-timeLine li,.m-timeLine ul{
+  float: left;
+}
+.m-timeLine>.m-timeLine-line{
+  background: #D8D8D8;
+  height: 2px;
+  width: 90%;
+}
+
+.m-timeLine li{
+  list-style: none;
+}
+
+.m-timeLine-year{
+  width: 90%;
+}
+.m-timeLine-year-button{
+  float: left;
+  margin: 0 5px;
+  width: calc(10% - 10px);
+}
+.m-timeLine-year-button img{
+  position: absolute;
+  margin-top: -3px;
+  border-radius: 50%;
+  width: 5px;
+  margin-left: 14px;
+}
+
+.m-timeLine-month{
+  width: 90%;
+}
+
+.m-timeLine-month>li{
+  cursor: pointer;
+  /*text-align: center;*/
+}
+
+
+.m-timeLine-year-button>a ,.m-timeLine-month>li a{
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0;
+  top: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.m-timeLine-year .active > .m-timeLine-year-button > a{
+  color: red;
+}
+
+.m-timeLine-month .active > a{
+  color: red;
+}
+
+
+/* 小圆点定位*/
+.m-timeLine .m-timeLine-year .m-radius-span-position{
+  position: absolute;
+  margin-top: -6px;
+  margin-left: 12px;
+}
+.m-timeLine .m-timeLine-year .active>span>.m-radius-span-position{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 8px;
+}
+
+.m-timeLine .m-timeLine-year .m-timeLine-month .m-radius-span-position{
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -2px;
+}
+.m-timeLine .m-timeLine-year .m-timeLine-month .active>.m-radius-span-position{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -5px;
+}

@@ -1,0 +1,22 @@
+<ng-container *ngIf="earlyWarningList || earlyWarningList !== null; else isNotEarlyWarning">
+  <app-warning-item [earlyWarningList]="earlyWarningList" [num]="num"></app-warning-item>
+</ng-container>
+<ng-template #isNotEarlyWarning>
+  <div class="mgn-top_15 mgn-bottom_70">
+    {{ getYear }}年暂无监测预警信息
+  </div>
+</ng-template>
+
+<div class="m-pagination text-right">
+  <pagination [boundaryLinks]="true"
+              [maxSize]="7"
+              [rotate]="false"
+              [totalItems]="totalItems"
+              [itemsPerPage]="itemsPerPage"
+              [(ngModel)]="currentPage"
+              (pageChanged)="getWarningTop($event)"
+              previousText="&lsaquo;"
+              nextText="&rsaquo;"
+              firstText="&laquo;" lastText="&raquo;">
+  </pagination>
+</div>

@@ -1,0 +1,32 @@
+<app-left-bar class="chart-bar"
+              [sel]="sel"
+              [sels]="sels"
+              [relations]="relations"
+              [riskSelF]="riskSelF"
+              [reskSels]="reskSels"
+              [toggle]="toggle"
+              [leftBarDataSel]="leftBarDataSel"
+              (riskSelType)="leftBar($event)"></app-left-bar>
+
+<app-right-bar class="rightBar chart-bar"
+               [riskSelF]="riskSelF"
+               [cy]="cy"
+               [sels]="sels"
+               [sel]="sel"
+               [rClientWidth]="rClientWidth" (printType)="printComplete($event)"></app-right-bar>
+
+<ng-container *ngIf="noInfo">
+  <div class="alert alert-black alert-dismissible pwd-prompt" role="alert">
+    <button type="button" class="close tip-close" (click)="noInfo=false"><i class="fa fa-close"></i></button>
+    很抱歉，暂无信息
+  </div>
+</ng-container>
+<div #chart id="cy"></div>
+<img id="photo_img" #photo [hidden]="false" style="width: 640px; height: 624px; margin: 20px auto" [src]="printSrc" alt="图谱">
+<essence-ng2-print #print
+                   [mode]="'iframe'"
+                   [printHTML]="photo"
+                   [showBtn]="false"></essence-ng2-print>
+<ng-template #messageTemplate>
+  <app-confirm-message  (confirmType)="modalRefOff()"></app-confirm-message>
+</ng-template>

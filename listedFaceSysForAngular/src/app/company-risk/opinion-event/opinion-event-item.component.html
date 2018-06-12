@@ -1,0 +1,49 @@
+<div *ngIf="newsTrack" class=" ">
+  <div  class="row">
+    <div  class="col-lg-12 " >
+      <div  *ngFor="let new of newsTrack"  class="col-lg-12 track-padding2 sz-news" (click)="newsDetail(new)">
+        <div class="col-lg-12 line-height24 mgn-bottom_3 all-dis-set">
+          <div class="col-lg-3 line-height30 padding-left_0 color-54698D">{{ new.postDt | lfsDatePipe: "yyyy-MM-dd HH:mm" }}</div>
+          <div class="col-lg-3">
+          <span *ngIf="new.cnn_score < 0" class="float-left padding-left_0 width-70">
+            <span  class="float-left group-news-emotion ">
+               <span class="m-radius-span_e64a19"></span>负面</span>
+          </span>
+          </div>
+          <div class="col-lg-6">
+            <div  class=" padding-left_0">
+              <ng-container *ngIf="new.lable">
+                <span *ngFor="let tx of new.lable;"  class="group-news-lable-emotion ">{{ tx }}</span>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 padding-left-right_0 all-dis-set">
+          <div class="col-lg-6 line-height30 u-leaveOut color-163 font-14 fontW-700"
+               data-toggle="tooltip"
+               data-trigger="hover"
+               data-placement="top"
+               title="{{ new.title }}">
+            {{ new.title }}
+          </div>
+          <div class="col-lg-4 padding-right_0 line-height30">
+            <span class="float-left color-3F51B5">相关公司：</span>
+            <span class="float-left color-546 u-leaveOut text-decoration"
+                  (click)="clickCompanyNm($event,new.companyId)"
+                  data-toggle="tooltip"
+                  data-trigger="hover"
+                  data-placement="top"
+                  title="{{ new.companyNm }}">
+              {{ new.companyNm }}[{{new.securityCd}}]
+            </span>
+          </div>
+          <div class="col-lg-2 align-right line-height30 u-leaveOut color-546"
+               data-toggle="tooltip"
+               data-trigger="hover"
+               data-placement="top"
+               title="{{ new.newsSource }}">来源：{{ new.newsSource }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
