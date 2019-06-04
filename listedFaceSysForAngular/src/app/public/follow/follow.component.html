@@ -1,9 +1,0 @@
-<ng-container *ngIf="follow.isFocused; else isNotFocused">
-  <span class="u-focus" (click)="openModal($event, confirmTemplate)">取消关注</span>
-</ng-container>
-<ng-template #isNotFocused>
-  <span class="u-focus u-focus-add" (click)="openModal($event, confirmTemplate)">+重点关注</span>
-</ng-template>
-<ng-template #confirmTemplate>
-  <app-confirm [follow]="follow" [message]="message" (confirmType)="confirm($event)"></app-confirm>
-</ng-template>
